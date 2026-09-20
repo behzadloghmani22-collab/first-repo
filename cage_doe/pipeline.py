@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import logging
 import time
+import zlib
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -317,7 +318,7 @@ class Campaign:
 
         # space filling
         if "lhs" in self.phases and int(doe.get("lhs_runs", 0)) > 0:
-            X = design.lhs(int(doe["lhs_runs"]), k, seed=self.seed + hash(variant.name) % 1000)
+            X = design.lhs(int(doe["lhs_runs"]), k, seed=self.seed + zlib.crc32(variant.name.encode()) % 1000)
             X = design.dedupe(X, ds.X_coded())
             self._run_points(ds, X, "lhs", budget=design_budget)
             snapshot("lhs")

@@ -163,3 +163,16 @@ def test_end_to_end_mock(tmp_path):
     # re-analysis without new runs must reuse the cache
     cr2 = run_campaign(cfg, mock=True, analyze_only=True)
     assert cr2.runs["status"].isin(["ok", "cached"]).sum() == cr.runs["status"].isin(["ok", "cached"]).sum()
+    # ... also from a different Python process (different hash seed): identical ranking, no new runs
+    import os
+    cfg_path = root / "doe_config.json"
+    cfg_path.write_text(json.dumps({"doe": cfg["doe"]}))
+    env = dict(os.environ, PYTHONHASHSEED="12345")
+    subprocess.run([sys.executable, "-m", "cage_doe", "run", "--root", str(root), "--config", str(cfg_path),
+                    "--mock", "--analyze-only", "--no-figures", "--no-pptx"], check=True, env=env, cwd=str(ROOT),
+                   capture_output=True)
+    import pandas as pd
+    rk2 = pd.read_csv(root / "DOE_results" / "data" / "ranking.csv")
+    assert rk2["variant"].tolist() == cr.ranking["variant"].tolist()
+    assert np.allclose(rk2["D_recommended"].to_numpy(float), cr.ranking["D_recommended"].to_numpy(float))
+    assert (rk2["n_ok"].to_numpy() == cr.ranking["n_ok"].to_numpy()).all()

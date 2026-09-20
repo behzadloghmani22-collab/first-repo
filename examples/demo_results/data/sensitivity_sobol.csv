@@ -1,13 +1,13 @@
 variant,factor,S1,ST
-fusion_cage_diamond,Cell Size,0.03176155271130498,0.2839876882609403
-fusion_cage_diamond,Strut Thickness,0.6820111240334589,0.955516350822061
-fusion_cage_diamond,Shell Thickness,0.0,0.034615005859272505
-fusion_cage_gyroid,Cell Size,0.0,0.4631344244501383
-fusion_cage_gyroid,Strut Thickness,0.6199305887204072,1.0
-fusion_cage_gyroid,Shell Thickness,0.007446164556879081,0.05977401156313185
-fusion_cage_kelvin,Cell Size,0.0,0.378304440811443
-fusion_cage_kelvin,Strut Thickness,0.48846646316618325,1.0
-fusion_cage_kelvin,Shell Thickness,0.005572634114307548,0.05132809760170432
-fusion_cage_octet,Cell Size,0.0,0.3605775191411994
-fusion_cage_octet,Strut Thickness,0.5867061478477094,1.0
-fusion_cage_octet,Shell Thickness,0.0027318433575830433,0.03213414361058213
+fusion_cage_diamond,Cell Size,0.02431743478584784,0.31582179287740036
+fusion_cage_diamond,Strut Thickness,0.720544516035219,1.0
+fusion_cage_diamond,Shell Thickness,0.0041700279592824805,0.012138225355180578
+fusion_cage_gyroid,Cell Size,0.0,0.45278959112120765
+fusion_cage_gyroid,Strut Thickness,0.6232854728659415,1.0
+fusion_cage_gyroid,Shell Thickness,0.006723482521904859,0.05332327419194237
+fusion_cage_kelvin,Cell Size,0.0,0.3947045566444593
+fusion_cage_kelvin,Strut Thickness,0.60863041090355,1.0
+fusion_cage_kelvin,Shell Thickness,0.0036622435028520932,0.006072246687615994
+fusion_cage_octet,Cell Size,0.0,0.3541621455500158
+fusion_cage_octet,Strut Thickness,0.6527541550024162,1.0
+fusion_cage_octet,Shell Thickness,0.0,0.01666254990812897

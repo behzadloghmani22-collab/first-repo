@@ -4,20 +4,20 @@
     {
       "name": "Cell Size",
       "type": "scalar",
-      "values": 2.2936,
+      "values": 2.1455,
       "units": "mm",
       "description": "Lattice unit-cell size"
     },
     {
       "name": "Strut Thickness",
       "type": "scalar",
-      "values": 0.4855,
+      "values": 0.4583,
       "units": "mm"
     },
     {
       "name": "Shell Thickness",
       "type": "scalar",
-      "values": 0.6423,
+      "values": 0.6316,
       "units": "mm"
     },
     {

@@ -1,6 +1,6 @@
 # Lumbar fusion cage - lattice DOE and optimisation - DOE and optimisation summary
 
-Campaign ran 2026-09-20 19:17:13 to 2026-09-20 19:18:46. Results folder: `<root>/DOE_results`.
+Campaign ran 2026-09-20 19:22:44 to 2026-09-20 19:24:31. Results folder: `<root>/DOE_results`.
 
 > **These results come from the surrogate stand-in (mock_ntopcl.py), NOT from nTop. Re-run with the real ntopcl.exe on the .ntop files to obtain presentable numbers.**
 
@@ -33,10 +33,10 @@ Each nTop run is scored with a Derringer-Suich desirability: every criterion is 
 
 | variant | runs_total | successful | failed | feasible |
 |---|---|---|---|---|
-| fusion_cage_diamond | 15 | 13 | 2 | 1 |
-| fusion_cage_gyroid | 17 | 15 | 2 | 4 |
-| fusion_cage_kelvin | 18 | 16 | 2 | 3 |
-| fusion_cage_octet | 19 | 17 | 2 | 6 |
+| fusion_cage_diamond | 33 | 30 | 3 | 10 |
+| fusion_cage_gyroid | 33 | 31 | 2 | 11 |
+| fusion_cage_kelvin | 33 | 31 | 2 | 11 |
+| fusion_cage_octet | 34 | 32 | 2 | 16 |
 
 ![Runs per variant](figures/fig01_run_summary.png)
 
@@ -46,12 +46,12 @@ Each nTop run is scored with a Derringer-Suich desirability: every criterion is 
 
 | rank | variant | lattice | D_recommended | source | Cell Size | Strut Thickness | Shell Thickness | E_app_GPa | porosity | pore_um | sf_yield | sf_fatigue | mass_g | max_stress_MPa |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | fusion_cage_kelvin | kelvin | 0.9746 | verified | 2.083 | 0.45 | 0.5 | 5.428 | 0.6637 | 800 | 7.808 | 4.794 | 8.94 | 73 |
-| 2 | fusion_cage_octet | octet | 0.9619 | verified | 2.273 | 0.45 | 0.5 | 5.988 | 0.6986 | 800 | 10.77 | 6.616 | 8.01 | 52.9 |
-| 3 | fusion_cage_gyroid | gyroid | 0.6887 | verified | 2.116 | 0.3444 | 0.6395 | 11.81 | 0.5272 | 819.3 | 17.22 | 10.58 | 12.57 | 33.09 |
-| 4 | fusion_cage_diamond | diamond | 0.5068 | best observed run | 2.75 | 0.9 | 1 | 11.43 | 0.4391 | 887.5 | 17.53 | 10.76 | 14.91 | 32.52 |
+| 1 | fusion_cage_diamond | diamond | 0.9793 | verified | 1.923 | 0.4497 | 0.5 | 5.183 | 0.6715 | 800 | 9.326 | 5.727 | 8.731 | 61.12 |
+| 2 | fusion_cage_kelvin | kelvin | 0.9748 | verified | 2.083 | 0.45 | 0.5 | 5.428 | 0.6637 | 800 | 7.808 | 4.794 | 8.94 | 73 |
+| 3 | fusion_cage_octet | octet | 0.9621 | verified | 2.273 | 0.45 | 0.5 | 5.988 | 0.6986 | 800 | 10.77 | 6.616 | 8.01 | 52.9 |
+| 4 | fusion_cage_gyroid | gyroid | 0.724 | verified | 2.051 | 0.3282 | 0.5 | 11.44 | 0.5463 | 800 | 16.06 | 9.862 | 12.06 | 35.49 |
 
-**Recommendation: fusion_cage_kelvin (kelvin)** with D = 0.975 (verified). Settings: Cell Size = 2.08 mm, Strut Thickness = 0.45 mm, Shell Thickness = 0.5 mm.
+**Recommendation: fusion_cage_diamond (diamond)** with D = 0.979 (verified). Settings: Cell Size = 1.92 mm, Strut Thickness = 0.45 mm, Shell Thickness = 0.5 mm.
 
 ![Overall desirability and component scores](figures/fig02_ranking.png)
 
@@ -81,12 +81,18 @@ Each nTop run is scored with a Derringer-Suich desirability: every criterion is 
 
 | variant | candidate | D predicted | D nTop | E_app pred (GPa) | E_app nTop | porosity pred | porosity nTop | stress pred (MPa) | stress nTop |
 |---|---|---|---|---|---|---|---|---|---|
-| fusion_cage_gyroid | alt1 | 0.6794 | 0.6887 | 12.08 | 11.81 | 0.5232 | 0.5272 | 32.76 | 33.09 |
-| fusion_cage_gyroid | alt2 | 0.6555 | 0.6375 | 11.81 | 12.2 | 0.5309 | 0.5252 | 33.61 | 33.5 |
-| fusion_cage_kelvin | optimum | 0.9746 | 0.9746 | 5.429 | 5.428 | 0.6636 | 0.6637 | 73 | 73 |
-| fusion_cage_kelvin | alt2 | 0.9475 | 0.949 | 6.059 | 5.968 | 0.6418 | 0.6523 | 65.9 | 66.09 |
-| fusion_cage_octet | optimum | 0.9619 | 0.9619 | 5.99 | 5.988 | 0.6986 | 0.6986 | 52.9 | 52.9 |
-| fusion_cage_octet | alt1 | 0.9446 | 0.9474 | 5.673 | 5.51 | 0.7211 | 0.7284 | 55.77 | 57.5 |
+| fusion_cage_diamond | optimum | 0.9789 | 0.9793 | 5.21 | 5.183 | 0.6697 | 0.6715 | 60.8 | 61.12 |
+| fusion_cage_diamond | alt1 | 0.9587 | 0.9567 | 5.208 | 5.306 | 0.6722 | 0.6711 | 61.95 | 59.7 |
+| fusion_cage_diamond | alt2 | 0.9562 | 0.9572 | 6.054 | 5.996 | 0.6423 | 0.6457 | 52.92 | 52.84 |
+| fusion_cage_gyroid | optimum | 0.7118 | 0.724 | 11.62 | 11.44 | 0.5378 | 0.5463 | 35.02 | 35.49 |
+| fusion_cage_gyroid | alt1 | 0.6765 | 0.689 | 12.25 | 11.81 | 0.5246 | 0.5272 | 33 | 33.09 |
+| fusion_cage_gyroid | alt2 | 0.6477 | 0.6565 | 12.9 | 12.64 | 0.507 | 0.5094 | 31.23 | 31.76 |
+| fusion_cage_kelvin | optimum | 0.9748 | 0.9748 | 5.429 | 5.428 | 0.6637 | 0.6637 | 73 | 73 |
+| fusion_cage_kelvin | alt1 | 0.951 | 0.9537 | 6.556 | 6.424 | 0.6303 | 0.639 | 60.89 | 63.01 |
+| fusion_cage_kelvin | alt2 | 0.9445 | 0.9492 | 6.224 | 5.968 | 0.6455 | 0.6523 | 64.91 | 66.09 |
+| fusion_cage_octet | optimum | 0.9606 | 0.9621 | 6.058 | 5.988 | 0.6983 | 0.6986 | 52.9 | 52.9 |
+| fusion_cage_octet | alt1 | 0.9438 | 0.9475 | 5.72 | 5.51 | 0.7266 | 0.7284 | 55.81 | 57.5 |
+| fusion_cage_octet | alt2 | 0.9383 | 0.9386 | 7.129 | 7.105 | 0.6451 | 0.6466 | 44.58 | 44.59 |
 
 ![Predicted vs verified](figures/fig08_predicted_vs_verified.png)
 
@@ -96,26 +102,26 @@ Each nTop run is scored with a Derringer-Suich desirability: every criterion is 
 
 ### fusion_cage_diamond (diamond)
 
-Recommended design (best observed run): Cell Size = 2.75, Strut Thickness = 0.9, Shell Thickness = 1; D = 0.507; E_app = 11.43 GPa, porosity = 0.44, pore = 888 um (estimated from cell/strut size), SF yield = 17.53, SF fatigue = 10.76, mass = 14.91 g.
+Recommended design (verified): Cell Size = 1.92, Strut Thickness = 0.45, Shell Thickness = 0.5; D = 0.979; E_app = 5.18 GPa, porosity = 0.67, pore = 800 um (estimated from cell/strut size), SF yield = 9.33, SF fatigue = 5.73, mass = 8.73 g.
 
 | Modulus match | Porosity | Pore size | Fatigue margin | Yield margin | Printability | Low mass | Surface area |
 |---|---|---|---|---|---|---|---|
-| 0.5716 | 0.1954 | 0.5625 | 1 | 1 | 1 | 0.5554 | 0.4903 |
+| 0.9878 | 1 | 1 | 1 | 1 | 0.998 | 0.7934 | 0.5358 |
 
 | factor | Sobol first-order | Sobol total |
 |---|---|---|
-| Cell Size | 0.03176 | 0.284 |
-| Strut Thickness | 0.682 | 0.9555 |
-| Shell Thickness | 0 | 0.03462 |
+| Cell Size | 0.02432 | 0.3158 |
+| Strut Thickness | 0.7205 | 1 |
+| Shell Thickness | 0.00417 | 0.01214 |
 
 | response | n | chosen | order | rsm_r2 | rsm_adj_r2 | loo_rmse_rel | log |
 |---|---|---|---|---|---|---|---|
-| lattice_volume | 13 | rbf | quadratic | 0.992 | 0.9679 | 0.6083 | False |
-| mass | 13 | rbf | quadratic | 0.992 | 0.9679 | 0.6083 | False |
-| surface_area | 13 | rbf | quadratic | 0.9799 | 0.9196 | 0.6954 | False |
-| max_stress | 13 | rsm | quadratic | 0.9979 | 0.9918 | 0.3231 | True |
-| max_displacement | 13 | rbf | quadratic | 0.9914 | 0.9657 | 0.5555 | True |
-| min_thickness | 13 | rbf | quadratic | 1 | 1 | 6.115e-16 | False |
+| lattice_volume | 30 | rbf | quadratic | 0.9894 | 0.9846 | 0.1717 | False |
+| mass | 30 | rbf | quadratic | 0.9894 | 0.9846 | 0.1717 | False |
+| surface_area | 30 | rbf | quadratic | 0.9798 | 0.9707 | 0.1833 | False |
+| max_stress | 30 | rbf | quadratic | 0.9884 | 0.9832 | 0.1777 | True |
+| max_displacement | 30 | rbf | quadratic | 0.9786 | 0.969 | 0.197 | True |
+| min_thickness | 30 | rbf | quadratic | 1 | 1 | 6.952e-16 | False |
 
 ![fusion_cage_diamond: Response surfaces](figures/fusion_cage_diamond_fig13_response_surfaces.png)
 
@@ -153,27 +159,27 @@ nTop outputs used: `Lattice Volume` -> lattice_volume, `Envelope Volume` -> enve
 
 ### fusion_cage_gyroid (gyroid)
 
-Recommended design (verified): Cell Size = 2.12, Strut Thickness = 0.344, Shell Thickness = 0.639; D = 0.689; E_app = 11.81 GPa, porosity = 0.53, pore = 819 um, SF yield = 17.22, SF fatigue = 10.58, mass = 12.57 g.
+Recommended design (verified): Cell Size = 2.05, Strut Thickness = 0.328, Shell Thickness = 0.5; D = 0.724; E_app = 11.44 GPa, porosity = 0.55, pore = 800 um, SF yield = 16.06, SF fatigue = 9.86, mass = 12.06 g.
 
 | Modulus match | Porosity | Pore size | Fatigue margin | Yield margin | Printability | Low mass | Surface area |
 |---|---|---|---|---|---|---|---|
-| 0.546 | 0.6361 | 0.9035 | 1 | 1 | 0.296 | 0.6428 | 0.5502 |
+| 0.5707 | 0.7315 | 1 | 1 | 1 | 0.188 | 0.6737 | 0.5723 |
 
 | factor | Sobol first-order | Sobol total |
 |---|---|---|
-| Cell Size | 0 | 0.4631 |
-| Strut Thickness | 0.6199 | 1 |
-| Shell Thickness | 0.007446 | 0.05977 |
+| Cell Size | 0 | 0.4528 |
+| Strut Thickness | 0.6233 | 1 |
+| Shell Thickness | 0.006723 | 0.05332 |
 
 | response | n | chosen | order | rsm_r2 | rsm_adj_r2 | loo_rmse_rel | log |
 |---|---|---|---|---|---|---|---|
-| lattice_volume | 15 | rsm | quadratic | 0.9956 | 0.9877 | 0.3009 | False |
-| mass | 15 | rsm | quadratic | 0.9956 | 0.9877 | 0.301 | False |
-| surface_area | 15 | rbf | quadratic | 0.9969 | 0.9914 | 0.2667 | False |
-| max_stress | 15 | rsm | quadratic | 0.9998 | 0.9993 | 0.0609 | True |
-| max_displacement | 15 | rsm | quadratic | 0.9987 | 0.9964 | 0.1275 | True |
-| pore_size | 15 | rbf | quadratic | 1 | 1 | 3.215e-05 | False |
-| min_thickness | 15 | rbf | quadratic | 1 | 1 | 4.919e-16 | False |
+| lattice_volume | 31 | rbf | quadratic | 0.9908 | 0.9869 | 0.1847 | False |
+| mass | 31 | rbf | quadratic | 0.9908 | 0.9869 | 0.1847 | False |
+| surface_area | 31 | rsm | quadratic | 0.9927 | 0.9896 | 0.1501 | False |
+| max_stress | 31 | rsm | quadratic | 0.9971 | 0.9959 | 0.09595 | True |
+| max_displacement | 31 | rsm | quadratic | 0.9944 | 0.9919 | 0.1244 | True |
+| pore_size | 31 | rsm | quadratic | 1 | 1 | 5.301e-05 | False |
+| min_thickness | 31 | rbf | quadratic | 1 | 1 | 8.233e-16 | False |
 
 ![fusion_cage_gyroid: Response surfaces](figures/fusion_cage_gyroid_fig13_response_surfaces.png)
 
@@ -215,22 +221,22 @@ Recommended design (verified): Cell Size = 2.08, Strut Thickness = 0.45, Shell T
 
 | Modulus match | Porosity | Pore size | Fatigue margin | Yield margin | Printability | Low mass | Surface area |
 |---|---|---|---|---|---|---|---|
-| 0.9714 | 1 | 1 | 1 | 1 | 1 | 0.778 | 0.5486 |
+| 0.9714 | 1 | 1 | 1 | 1 | 1 | 0.7859 | 0.5486 |
 
 | factor | Sobol first-order | Sobol total |
 |---|---|---|
-| Cell Size | 0 | 0.3783 |
-| Strut Thickness | 0.4885 | 1 |
-| Shell Thickness | 0.005573 | 0.05133 |
+| Cell Size | 0 | 0.3947 |
+| Strut Thickness | 0.6086 | 1 |
+| Shell Thickness | 0.003662 | 0.006072 |
 
 | response | n | chosen | order | rsm_r2 | rsm_adj_r2 | loo_rmse_rel | log |
 |---|---|---|---|---|---|---|---|
-| lattice_volume | 16 | rbf | quadratic | 0.9844 | 0.9609 | 0.5828 | False |
-| mass | 16 | rbf | quadratic | 0.9844 | 0.9609 | 0.5828 | False |
-| surface_area | 16 | rbf | quadratic | 0.9805 | 0.9512 | 0.6404 | False |
-| max_stress | 16 | rbf | quadratic | 0.9957 | 0.9892 | 0.412 | True |
-| max_displacement | 16 | rbf | quadratic | 0.9851 | 0.9627 | 0.5751 | True |
-| min_thickness | 16 | rbf | quadratic | 1 | 1 | 4.361e-16 | False |
+| lattice_volume | 31 | rbf | quadratic | 0.9851 | 0.9787 | 0.2126 | False |
+| mass | 31 | rbf | quadratic | 0.9851 | 0.9787 | 0.2127 | False |
+| surface_area | 31 | rbf | quadratic | 0.9789 | 0.9699 | 0.1988 | False |
+| max_stress | 31 | rbf | quadratic | 0.9716 | 0.9594 | 0.2171 | True |
+| max_displacement | 31 | rbf | quadratic | 0.9812 | 0.9731 | 0.2254 | True |
+| min_thickness | 31 | rbf | quadratic | 1 | 1 | 6.609e-16 | False |
 
 ![fusion_cage_kelvin: Response surfaces](figures/fusion_cage_kelvin_fig13_response_surfaces.png)
 
@@ -272,22 +278,22 @@ Recommended design (verified): Cell Size = 2.27, Strut Thickness = 0.45, Shell T
 
 | Modulus match | Porosity | Pore size | Fatigue margin | Yield margin | Printability | Low mass | Surface area |
 |---|---|---|---|---|---|---|---|
-| 0.9341 | 1 | 1 | 1 | 1 | 1 | 0.8127 | 0.4911 |
+| 0.9341 | 1 | 1 | 1 | 1 | 1 | 0.8193 | 0.4911 |
 
 | factor | Sobol first-order | Sobol total |
 |---|---|---|
-| Cell Size | 0 | 0.3606 |
-| Strut Thickness | 0.5867 | 1 |
-| Shell Thickness | 0.002732 | 0.03213 |
+| Cell Size | 0 | 0.3542 |
+| Strut Thickness | 0.6528 | 1 |
+| Shell Thickness | 0 | 0.01666 |
 
 | response | n | chosen | order | rsm_r2 | rsm_adj_r2 | loo_rmse_rel | log |
 |---|---|---|---|---|---|---|---|
-| lattice_volume | 17 | rbf | quadratic | 0.9835 | 0.9624 | 0.5879 | False |
-| mass | 17 | rbf | quadratic | 0.9835 | 0.9624 | 0.5878 | False |
-| surface_area | 17 | rsm | quadratic | 0.9796 | 0.9533 | 0.6633 | False |
-| max_stress | 17 | rbf | quadratic | 0.9967 | 0.9924 | 0.3299 | True |
-| max_displacement | 17 | rsm | quadratic | 0.9955 | 0.9896 | 0.3108 | True |
-| min_thickness | 17 | rbf | quadratic | 1 | 1 | 5.983e-16 | False |
+| lattice_volume | 32 | rsm | quadratic | 0.9858 | 0.98 | 0.2363 | False |
+| mass | 32 | rsm | quadratic | 0.9858 | 0.98 | 0.2362 | False |
+| surface_area | 32 | rbf | quadratic | 0.9746 | 0.9643 | 0.2746 | False |
+| max_stress | 32 | rbf | quadratic | 0.9906 | 0.9868 | 0.1524 | True |
+| max_displacement | 32 | rbf | quadratic | 0.9936 | 0.991 | 0.1725 | True |
+| min_thickness | 32 | rbf | quadratic | 1 | 1 | 8.081e-16 | False |
 
 ![fusion_cage_octet: Response surfaces](figures/fusion_cage_octet_fig13_response_surfaces.png)
 

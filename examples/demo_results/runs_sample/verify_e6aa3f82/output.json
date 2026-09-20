@@ -4,7 +4,7 @@
     {
       "name": "Lattice Volume",
       "type": "scalar",
-      "value": 2058.9267,
+      "value": 2120.2153,
       "units": "mm^3"
     },
     {
@@ -16,37 +16,37 @@
     {
       "name": "Mass",
       "type": "scalar",
-      "value": 0.009121,
+      "value": 0.009393,
       "units": "kg"
     },
     {
       "name": "Surface Area",
       "type": "scalar",
-      "value": 15361.905,
+      "value": 16413.073,
       "units": "mm^2"
     },
     {
       "name": "Max von Mises Stress",
       "type": "scalar",
-      "value": 45.5028,
+      "value": 44.5859,
       "units": "MPa"
     },
     {
       "name": "Max Displacement",
       "type": "scalar",
-      "value": 0.0041366,
+      "value": 0.0040533,
       "units": "mm"
     },
     {
       "name": "Minimum Thickness",
       "type": "scalar",
-      "value": 0.4855,
+      "value": 0.4583,
       "units": "mm"
     },
     {
       "name": "Solve Time",
       "type": "scalar",
-      "value": 135.1,
+      "value": 140.2,
       "units": "s"
     }
   ]
