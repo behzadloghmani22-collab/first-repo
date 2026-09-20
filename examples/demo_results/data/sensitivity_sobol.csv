@@ -1,0 +1,13 @@
+variant,factor,S1,ST
+fusion_cage_diamond,Cell Size,0.03176155271130498,0.2839876882609403
+fusion_cage_diamond,Strut Thickness,0.6820111240334589,0.955516350822061
+fusion_cage_diamond,Shell Thickness,0.0,0.034615005859272505
+fusion_cage_gyroid,Cell Size,0.0,0.4631344244501383
+fusion_cage_gyroid,Strut Thickness,0.6199305887204072,1.0
+fusion_cage_gyroid,Shell Thickness,0.007446164556879081,0.05977401156313185
+fusion_cage_kelvin,Cell Size,0.0,0.378304440811443
+fusion_cage_kelvin,Strut Thickness,0.48846646316618325,1.0
+fusion_cage_kelvin,Shell Thickness,0.005572634114307548,0.05132809760170432
+fusion_cage_octet,Cell Size,0.0,0.3605775191411994
+fusion_cage_octet,Strut Thickness,0.5867061478477094,1.0
+fusion_cage_octet,Shell Thickness,0.0027318433575830433,0.03213414361058213

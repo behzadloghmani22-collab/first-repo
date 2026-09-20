@@ -1,0 +1,543 @@
+{
+  "project": "Lumbar fusion cage - lattice DOE and optimisation",
+  "started": "2026-09-20 19:17:13",
+  "finished": "2026-09-20 19:18:46",
+  "mock": true,
+  "results_dir": "<root>/DOE_results",
+  "variants": [
+    {
+      "name": "fusion_cage_diamond",
+      "lattice": "diamond",
+      "ntop": "<root>/cage_diamond/fusion_cage_diamond.ntop",
+      "template": "<root>/cage_diamond/fusion_cage_diamond_input.json",
+      "factor_map": {
+        "Cell Size": "Cell Size",
+        "Strut Thickness": "Strut Thickness",
+        "Shell Thickness": "Shell Thickness"
+      },
+      "fixed_map": {},
+      "prior_runs": 0,
+      "notes": [],
+      "output_mapping": {
+        "lattice_volume": "Lattice Volume",
+        "envelope_volume": "Envelope Volume",
+        "mass": "Mass",
+        "surface_area": "Surface Area",
+        "max_stress": "Max von Mises Stress",
+        "max_displacement": "Max Displacement",
+        "min_thickness": "Minimum Thickness"
+      },
+      "history": [
+        {
+          "label": "prior",
+          "n_runs": 0,
+          "best_D": NaN
+        },
+        {
+          "label": "screen",
+          "n_runs": 9,
+          "best_D": 0.0
+        },
+        {
+          "label": "rsm",
+          "n_runs": 15,
+          "best_D": 0.504483605612289
+        },
+        {
+          "label": "lhs",
+          "n_runs": 15,
+          "best_D": 0.504483605612289
+        },
+        {
+          "label": "infill1",
+          "n_runs": 15,
+          "best_D": 0.504483605612289
+        },
+        {
+          "label": "infill2",
+          "n_runs": 15,
+          "best_D": 0.504483605612289
+        },
+        {
+          "label": "verify",
+          "n_runs": 15,
+          "best_D": 0.504483605612289
+        }
+      ],
+      "recommended": {
+        "variant": "fusion_cage_diamond",
+        "lattice": "diamond",
+        "run_id": "rsm_8f532dab",
+        "phase": "rsm",
+        "kind": "",
+        "status": "cached",
+        "elapsed_s": 0.0,
+        "message": "reused existing output",
+        "Cell Size": 2.75,
+        "Strut Thickness": 0.9,
+        "Shell Thickness": 1.0,
+        "resp_lattice_volume": 3365.5691,
+        "resp_envelope_volume": 6000.0,
+        "resp_mass": 14.909,
+        "resp_surface_area": 14737.685,
+        "resp_max_stress": 32.517,
+        "resp_max_displacement": 0.0025207,
+        "resp_min_thickness": 0.9,
+        "out_Solve Time": 218.4,
+        "porosity": 0.4390718166666666,
+        "mass_g": 14.909,
+        "stiffness_N_mm": 476058.2377910898,
+        "E_app_GPa": 11.425397706986155,
+        "max_stress_MPa": 32.517,
+        "max_stress_peak_MPa": 54.19500000000001,
+        "sf_yield": 17.529292370144844,
+        "sf_fatigue": 10.763600578159116,
+        "pore_um": 887.5000000000001,
+        "pore_estimated": 1.0,
+        "strut_mm": 0.9,
+        "surface_area_mm2": 14737.685,
+        "specific_surface_1_mm": 4.378957781612625,
+        "lattice_volume_mm3": 3365.5691,
+        "max_displacement_mm": 0.0025207,
+        "cell_mm": 2.75,
+        "relative_density": 0.5609281833333334,
+        "d_modulus": 0.5716401528675896,
+        "d_porosity": 0.19535908333333302,
+        "d_pore_size": 0.5624999999999994,
+        "d_sf_fatigue": 1.0,
+        "d_sf_yield": 1.0,
+        "d_strut": 1.0,
+        "d_mass": 0.5554077573346593,
+        "d_surface_area": 0.49028509386827007,
+        "D": 0.5068137401381887,
+        "feasible": 1.0,
+        "modulus_dev": 8.425397706986155,
+        "source": "best observed run"
+      }
+    },
+    {
+      "name": "fusion_cage_gyroid",
+      "lattice": "gyroid",
+      "ntop": "<root>/cage_gyroid/fusion_cage_gyroid.ntop",
+      "template": "<root>/cage_gyroid/fusion_cage_gyroid_input.json",
+      "factor_map": {
+        "Cell Size": "Cell Size",
+        "Strut Thickness": "Strut Thickness",
+        "Shell Thickness": "Shell Thickness"
+      },
+      "fixed_map": {},
+      "prior_runs": 0,
+      "notes": [],
+      "output_mapping": {
+        "lattice_volume": "Lattice Volume",
+        "envelope_volume": "Envelope Volume",
+        "mass": "Mass",
+        "surface_area": "Surface Area",
+        "max_stress": "Max von Mises Stress",
+        "max_displacement": "Max Displacement",
+        "pore_size": "Pore Diameter",
+        "min_thickness": "Minimum Thickness"
+      },
+      "history": [
+        {
+          "label": "prior",
+          "n_runs": 0,
+          "best_D": NaN
+        },
+        {
+          "label": "screen",
+          "n_runs": 9,
+          "best_D": 0.09044530579130666
+        },
+        {
+          "label": "rsm",
+          "n_runs": 15,
+          "best_D": 0.44583904867144364
+        },
+        {
+          "label": "lhs",
+          "n_runs": 15,
+          "best_D": 0.44583904867144364
+        },
+        {
+          "label": "infill1",
+          "n_runs": 15,
+          "best_D": 0.44583904867144364
+        },
+        {
+          "label": "infill2",
+          "n_runs": 15,
+          "best_D": 0.44583904867144364
+        },
+        {
+          "label": "verify",
+          "n_runs": 17,
+          "best_D": 0.6906332459532304
+        }
+      ],
+      "recommended": {
+        "variant": "fusion_cage_gyroid",
+        "lattice": "gyroid",
+        "run_id": "verify_82c18518",
+        "phase": "verify",
+        "kind": "alt1",
+        "status": "cached",
+        "elapsed_s": 0.0,
+        "message": "reused existing output",
+        "Cell Size": 2.1158,
+        "Strut Thickness": 0.3444,
+        "Shell Thickness": 0.6395,
+        "resp_lattice_volume": 2836.6735,
+        "resp_envelope_volume": 6000.0,
+        "resp_mass": 12.566,
+        "resp_surface_area": 17447.25,
+        "resp_max_stress": 33.095,
+        "resp_max_displacement": 0.0024386,
+        "resp_pore_size": 0.8193,
+        "resp_min_thickness": 0.3444,
+        "out_Solve Time": 193.4,
+        "porosity": 0.5272210833333333,
+        "mass_g": 12.566,
+        "stiffness_N_mm": 492085.62289838435,
+        "E_app_GPa": 11.810054949561223,
+        "max_stress_MPa": 33.095,
+        "max_stress_peak_MPa": 55.15833333333333,
+        "sf_yield": 17.223145490255327,
+        "sf_fatigue": 10.575615651911166,
+        "pore_um": 819.3000000000001,
+        "pore_estimated": 0.0,
+        "strut_mm": 0.3444,
+        "surface_area_mm2": 17447.25,
+        "specific_surface_1_mm": 6.150602104895047,
+        "lattice_volume_mm3": 2836.6735,
+        "max_displacement_mm": 0.0024386,
+        "cell_mm": 2.1158,
+        "relative_density": 0.4727789166666667,
+        "pred_E_app_GPa": 12.08379983556148,
+        "pred_porosity": 0.523201850472605,
+        "pred_pore_um": 819.2383868154138,
+        "pred_sf_yield": 17.400728960664992,
+        "pred_sf_fatigue": 10.684658133741662,
+        "pred_mass_g": 12.673364026199268,
+        "pred_max_stress_MPa": 32.75724834795753,
+        "pred_D": 0.6793985653110471,
+        "d_modulus": 0.5459963366959184,
+        "d_porosity": 0.6361054166666664,
+        "d_pore_size": 0.9034999999999996,
+        "d_sf_fatigue": 1.0,
+        "d_sf_yield": 1.0,
+        "d_strut": 0.29599999999999993,
+        "d_mass": 0.6427896568871208,
+        "d_surface_area": 0.5502332823532137,
+        "D": 0.688749817798686,
+        "feasible": 1.0,
+        "modulus_dev": 8.810054949561223,
+        "source": "verified"
+      }
+    },
+    {
+      "name": "fusion_cage_kelvin",
+      "lattice": "kelvin",
+      "ntop": "<root>/cage_kelvin/fusion_cage_kelvin.ntop",
+      "template": "<root>/cage_kelvin/fusion_cage_kelvin_input.json",
+      "factor_map": {
+        "Cell Size": "Cell Size",
+        "Strut Thickness": "Strut Thickness",
+        "Shell Thickness": "Shell Thickness"
+      },
+      "fixed_map": {},
+      "prior_runs": 0,
+      "notes": [],
+      "output_mapping": {
+        "lattice_volume": "Lattice Volume",
+        "envelope_volume": "Envelope Volume",
+        "mass": "Mass",
+        "surface_area": "Surface Area",
+        "max_stress": "Max von Mises Stress",
+        "max_displacement": "Max Displacement",
+        "min_thickness": "Minimum Thickness"
+      },
+      "history": [
+        {
+          "label": "prior",
+          "n_runs": 0,
+          "best_D": NaN
+        },
+        {
+          "label": "screen",
+          "n_runs": 9,
+          "best_D": 0.0
+        },
+        {
+          "label": "rsm",
+          "n_runs": 15,
+          "best_D": 0.0
+        },
+        {
+          "label": "lhs",
+          "n_runs": 15,
+          "best_D": 0.0
+        },
+        {
+          "label": "infill1",
+          "n_runs": 16,
+          "best_D": 0.9746080232105948
+        },
+        {
+          "label": "infill2",
+          "n_runs": 16,
+          "best_D": 0.9746080232105948
+        },
+        {
+          "label": "verify",
+          "n_runs": 18,
+          "best_D": 0.9746080232105948
+        }
+      ],
+      "recommended": {
+        "variant": "fusion_cage_kelvin",
+        "lattice": "kelvin",
+        "run_id": "verify_infill1_547b85db",
+        "phase": "verify",
+        "kind": "optimum",
+        "status": "cached",
+        "elapsed_s": 0.0,
+        "message": "same design as infill1_547b85db",
+        "Cell Size": 2.0833,
+        "Strut Thickness": 0.45,
+        "Shell Thickness": 0.5,
+        "resp_lattice_volume": 2018.028,
+        "resp_envelope_volume": 6000.0,
+        "resp_mass": 8.94,
+        "resp_surface_area": 17372.322,
+        "resp_max_stress": 73.0032,
+        "resp_max_displacement": 0.0053055,
+        "resp_min_thickness": 0.45,
+        "out_Solve Time": 139.9,
+        "porosity": 0.663662,
+        "mass_g": 8.94,
+        "stiffness_N_mm": 226180.37885213457,
+        "E_app_GPa": 5.4283290924512295,
+        "max_stress_MPa": 73.0032,
+        "max_stress_peak_MPa": 121.67200000000003,
+        "sf_yield": 7.807876914984547,
+        "sf_fatigue": 4.794310386394021,
+        "pore_um": 799.9799999999999,
+        "pore_estimated": 1.0,
+        "strut_mm": 0.45,
+        "surface_area_mm2": 17372.322,
+        "specific_surface_1_mm": 8.608563409427422,
+        "lattice_volume_mm3": 2018.028,
+        "max_displacement_mm": 0.0053055,
+        "cell_mm": 2.0833,
+        "relative_density": 0.336338,
+        "pred_E_app_GPa": 5.4286104594034725,
+        "pred_porosity": 0.6636405472500635,
+        "pred_pore_um": 799.9799999999999,
+        "pred_sf_yield": 7.8081840141686225,
+        "pred_sf_fatigue": 4.794498956068453,
+        "pred_mass_g": 8.940569882505939,
+        "pred_max_stress_MPa": 73.00032875322685,
+        "pred_D": 0.9746028167272773,
+        "d_modulus": 0.9714447271699181,
+        "d_porosity": 1.0,
+        "d_pore_size": 1.0,
+        "d_sf_fatigue": 1.0,
+        "d_sf_yield": 1.0,
+        "d_strut": 1.0,
+        "d_mass": 0.7780208851317753,
+        "d_surface_area": 0.5485755262680856,
+        "D": 0.9746080232105948,
+        "feasible": 1.0,
+        "modulus_dev": 2.4283290924512295,
+        "source": "verified"
+      }
+    },
+    {
+      "name": "fusion_cage_octet",
+      "lattice": "octet",
+      "ntop": "<root>/cage_octet/fusion_cage_octet.ntop",
+      "template": "<root>/cage_octet/fusion_cage_octet_input.json",
+      "factor_map": {
+        "Cell Size": "Cell Size",
+        "Strut Thickness": "Strut Thickness",
+        "Shell Thickness": "Shell Thickness"
+      },
+      "fixed_map": {},
+      "prior_runs": 1,
+      "notes": [],
+      "output_mapping": {
+        "lattice_volume": "Lattice Volume",
+        "envelope_volume": "Envelope Volume",
+        "mass": "Mass",
+        "surface_area": "Surface Area",
+        "max_stress": "Max von Mises Stress",
+        "max_displacement": "Max Displacement",
+        "min_thickness": "Minimum Thickness"
+      },
+      "history": [
+        {
+          "label": "prior",
+          "n_runs": 1,
+          "best_D": 0.0
+        },
+        {
+          "label": "screen",
+          "n_runs": 10,
+          "best_D": 0.7414981899372537
+        },
+        {
+          "label": "rsm",
+          "n_runs": 16,
+          "best_D": 0.7896660891591755
+        },
+        {
+          "label": "lhs",
+          "n_runs": 16,
+          "best_D": 0.7896660891591755
+        },
+        {
+          "label": "infill1",
+          "n_runs": 17,
+          "best_D": 0.9619304120757765
+        },
+        {
+          "label": "infill2",
+          "n_runs": 17,
+          "best_D": 0.9619304120757765
+        },
+        {
+          "label": "verify",
+          "n_runs": 19,
+          "best_D": 0.9619304120757765
+        }
+      ],
+      "recommended": {
+        "variant": "fusion_cage_octet",
+        "lattice": "octet",
+        "run_id": "verify_infill1_9ad13048",
+        "phase": "verify",
+        "kind": "optimum",
+        "status": "cached",
+        "elapsed_s": 0.0,
+        "message": "same design as infill1_9ad13048",
+        "Cell Size": 2.2727,
+        "Strut Thickness": 0.45,
+        "Shell Thickness": 0.5,
+        "resp_lattice_volume": 1808.1567,
+        "resp_envelope_volume": 6000.0,
+        "resp_mass": 8.01,
+        "resp_surface_area": 14775.326,
+        "resp_max_stress": 52.9047,
+        "resp_max_displacement": 0.0048095,
+        "resp_min_thickness": 0.45,
+        "out_Solve Time": 124.6,
+        "porosity": 0.69864055,
+        "mass_g": 8.01,
+        "stiffness_N_mm": 249506.18567418648,
+        "E_app_GPa": 5.988148456180475,
+        "max_stress_MPa": 52.9047,
+        "max_stress_peak_MPa": 88.1745,
+        "sf_yield": 10.774090014686786,
+        "sf_fatigue": 6.615669307263816,
+        "pore_um": 799.9850000000001,
+        "pore_estimated": 1.0,
+        "strut_mm": 0.45,
+        "surface_area_mm2": 14775.326,
+        "specific_surface_1_mm": 8.17148535854221,
+        "lattice_volume_mm3": 1808.1567,
+        "max_displacement_mm": 0.0048095,
+        "cell_mm": 2.2727,
+        "relative_density": 0.30135945,
+        "pred_E_app_GPa": 5.989838491338288,
+        "pred_porosity": 0.698621623874421,
+        "pred_pore_um": 799.9850000000001,
+        "pred_sf_yield": 10.774180775959355,
+        "pred_sf_fatigue": 6.6157250378697805,
+        "pred_mass_g": 8.0105032127339,
+        "pred_max_stress_MPa": 52.9042543329004,
+        "pred_D": 0.9618967794426975,
+        "d_modulus": 0.934123436254635,
+        "d_porosity": 1.0,
+        "d_pore_size": 1.0,
+        "d_sf_fatigue": 1.0,
+        "d_sf_yield": 1.0,
+        "d_strut": 1.0,
+        "d_mass": 0.8127051218299353,
+        "d_surface_area": 0.4911178879746162,
+        "D": 0.9619304120757765,
+        "feasible": 1.0,
+        "modulus_dev": 2.9881484561804754,
+        "source": "verified"
+      }
+    }
+  ],
+  "objectives": {
+    "target_modulus_GPa": 3.0,
+    "modulus_band_GPa": [
+      2.0,
+      5.0
+    ],
+    "modulus_hard_GPa": [
+      0.5,
+      20.0
+    ],
+    "porosity_band": [
+      0.6,
+      0.75
+    ],
+    "porosity_hard": [
+      0.4,
+      0.9
+    ],
+    "pore_band_um": [
+      500.0,
+      800.0
+    ],
+    "pore_hard_um": [
+      300.0,
+      1000.0
+    ],
+    "sf_yield_min": 2.0,
+    "sf_yield_good": 4.0,
+    "sf_fatigue_min": 1.0,
+    "sf_fatigue_good": 2.0,
+    "min_strut_mm": 0.3,
+    "good_strut_mm": 0.45,
+    "mass_weight_relative": true,
+    "weights": {
+      "modulus": 0.3,
+      "porosity": 0.22,
+      "pore_size": 0.22,
+      "sf_fatigue": 0.12,
+      "sf_yield": 0.06,
+      "strut": 0.04,
+      "mass": 0.02,
+      "surface_area": 0.02
+    }
+  },
+  "physics": {
+    "design_load_N": 1200.0,
+    "peak_load_N": 2000.0,
+    "yield_MPa": 950.0,
+    "fatigue_MPa": 350.0,
+    "E_solid_GPa": 110.0,
+    "density_g_cm3": 4.43,
+    "load_is_in_model": true
+  },
+  "doe": {
+    "profile": "standard",
+    "screening": "full_factorial",
+    "center_points": 3,
+    "rsm": "ccd_face",
+    "lhs_runs": 10,
+    "infill_iterations": 2,
+    "infill_per_iteration": 3,
+    "verify_top_n": 3,
+    "budget_per_variant": 45,
+    "log_transform_responses": [
+      "max_stress",
+      "max_displacement"
+    ]
+  }
+}

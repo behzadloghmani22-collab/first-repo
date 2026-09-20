@@ -1,0 +1,317 @@
+{
+  "project": {
+    "name": "Lumbar fusion cage - lattice DOE and optimisation",
+    "root": "C:\\Users\\Moein Salehi\\Desktop\\moein new files",
+    "results_dirname": "DOE_results",
+    "ntopcl_exe": null,
+    "extra_ntopcl_args": [],
+    "timeout_s": 3600,
+    "workers": 1,
+    "random_seed": 42,
+    "resume": true,
+    "retry_failed": false
+  },
+  "variants": "auto",
+  "exclude_patterns": [
+    "backup",
+    "_old",
+    "~$",
+    ".bak"
+  ],
+  "factors": [
+    {
+      "name": "Cell Size",
+      "units": "mm",
+      "low": 1.5,
+      "high": 4.0,
+      "type": "scalar",
+      "aliases": [
+        "cell size",
+        "unit cell size",
+        "unit cell",
+        "cell",
+        "lattice cell size",
+        "cell length",
+        "period",
+        "cell_size"
+      ]
+    },
+    {
+      "name": "Strut Thickness",
+      "units": "mm",
+      "low": 0.3,
+      "high": 0.9,
+      "type": "scalar",
+      "aliases": [
+        "strut thickness",
+        "thickness",
+        "beam thickness",
+        "lattice thickness",
+        "strut diameter",
+        "beam diameter",
+        "strut",
+        "rib thickness",
+        "sheet thickness",
+        "wall thickness lattice",
+        "lattice wall thickness"
+      ]
+    },
+    {
+      "name": "Shell Thickness",
+      "units": "mm",
+      "low": 0.5,
+      "high": 1.5,
+      "type": "scalar",
+      "aliases": [
+        "shell thickness",
+        "shell",
+        "rim thickness",
+        "rim",
+        "wall thickness",
+        "outer wall",
+        "frame thickness",
+        "skin thickness"
+      ]
+    }
+  ],
+  "fixed_inputs": {},
+  "per_run_path_inputs": [],
+  "responses": [
+    {
+      "key": "lattice_volume",
+      "units": "mm^3",
+      "aliases": [
+        "volume",
+        "lattice volume",
+        "total volume",
+        "cage volume",
+        "part volume",
+        "solid volume",
+        "final volume",
+        "vol"
+      ]
+    },
+    {
+      "key": "envelope_volume",
+      "units": "mm^3",
+      "aliases": [
+        "envelope volume",
+        "bounding volume",
+        "design volume",
+        "design space volume",
+        "solid cage volume",
+        "cad volume",
+        "reference volume"
+      ]
+    },
+    {
+      "key": "mass",
+      "units": "g",
+      "aliases": [
+        "mass",
+        "weight",
+        "part mass"
+      ]
+    },
+    {
+      "key": "surface_area",
+      "units": "mm^2",
+      "aliases": [
+        "surface area",
+        "area",
+        "total surface area",
+        "lattice surface area"
+      ]
+    },
+    {
+      "key": "porosity",
+      "units": "-",
+      "aliases": [
+        "porosity",
+        "void fraction",
+        "pore fraction"
+      ]
+    },
+    {
+      "key": "relative_density",
+      "units": "-",
+      "aliases": [
+        "relative density",
+        "volume fraction",
+        "density ratio",
+        "solid fraction",
+        "fill fraction"
+      ]
+    },
+    {
+      "key": "max_stress",
+      "units": "MPa",
+      "aliases": [
+        "max von mises",
+        "max von mises stress",
+        "von mises",
+        "von mises stress",
+        "max stress",
+        "maximum stress",
+        "peak stress",
+        "stress max",
+        "max vm stress",
+        "max principal stress"
+      ]
+    },
+    {
+      "key": "max_displacement",
+      "units": "mm",
+      "aliases": [
+        "max displacement",
+        "displacement",
+        "max disp",
+        "maximum displacement",
+        "deflection",
+        "max deflection",
+        "displacement max",
+        "total displacement"
+      ]
+    },
+    {
+      "key": "stiffness",
+      "units": "N/mm",
+      "aliases": [
+        "stiffness",
+        "axial stiffness",
+        "cage stiffness"
+      ]
+    },
+    {
+      "key": "pore_size",
+      "units": "um",
+      "aliases": [
+        "pore size",
+        "pore diameter",
+        "pore",
+        "mean pore size",
+        "max inscribed sphere"
+      ]
+    },
+    {
+      "key": "min_thickness",
+      "units": "mm",
+      "aliases": [
+        "min thickness",
+        "minimum thickness",
+        "min feature",
+        "minimum feature size",
+        "min strut"
+      ]
+    },
+    {
+      "key": "contact_area",
+      "units": "mm^2",
+      "aliases": [
+        "contact area",
+        "endplate area",
+        "endplate contact area",
+        "footprint area",
+        "footprint"
+      ]
+    },
+    {
+      "key": "safety_factor",
+      "units": "-",
+      "aliases": [
+        "safety factor",
+        "factor of safety",
+        "fos",
+        "sf"
+      ]
+    }
+  ],
+  "geometry": {
+    "footprint_area_mm2": 500.0,
+    "height_mm": 12.0,
+    "envelope_volume_mm3": null,
+    "pore_kappa": {
+      "octet": 0.55,
+      "gyroid": 0.55,
+      "diamond": 0.65,
+      "kelvin": 0.6,
+      "bcc": 0.65,
+      "fcc": 0.55,
+      "schwarz": 0.55,
+      "default": 0.58
+    }
+  },
+  "physics": {
+    "design_load_N": 1200.0,
+    "peak_load_N": 2000.0,
+    "yield_MPa": 950.0,
+    "fatigue_MPa": 350.0,
+    "E_solid_GPa": 110.0,
+    "density_g_cm3": 4.43,
+    "load_is_in_model": true
+  },
+  "objectives": {
+    "target_modulus_GPa": 3.0,
+    "modulus_band_GPa": [
+      2.0,
+      5.0
+    ],
+    "modulus_hard_GPa": [
+      0.5,
+      20.0
+    ],
+    "porosity_band": [
+      0.6,
+      0.75
+    ],
+    "porosity_hard": [
+      0.4,
+      0.9
+    ],
+    "pore_band_um": [
+      500.0,
+      800.0
+    ],
+    "pore_hard_um": [
+      300.0,
+      1000.0
+    ],
+    "sf_yield_min": 2.0,
+    "sf_yield_good": 4.0,
+    "sf_fatigue_min": 1.0,
+    "sf_fatigue_good": 2.0,
+    "min_strut_mm": 0.3,
+    "good_strut_mm": 0.45,
+    "mass_weight_relative": true,
+    "weights": {
+      "modulus": 0.3,
+      "porosity": 0.22,
+      "pore_size": 0.22,
+      "sf_fatigue": 0.12,
+      "sf_yield": 0.06,
+      "strut": 0.04,
+      "mass": 0.02,
+      "surface_area": 0.02
+    }
+  },
+  "doe": {
+    "profile": "standard",
+    "screening": "full_factorial",
+    "center_points": 3,
+    "rsm": "ccd_face",
+    "lhs_runs": 10,
+    "infill_iterations": 2,
+    "infill_per_iteration": 3,
+    "verify_top_n": 3,
+    "budget_per_variant": 45,
+    "log_transform_responses": [
+      "max_stress",
+      "max_displacement"
+    ]
+  },
+  "figures": {
+    "dpi": 200,
+    "format": "png",
+    "watermark": null
+  }
+}

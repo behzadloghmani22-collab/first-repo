@@ -1,0 +1,23 @@
+{
+  "run_id": "verify_15b2add0",
+  "variant": "fusion_cage_octet",
+  "phase": "verify",
+  "assignments": {
+    "Cell Size": 2.2936,
+    "Strut Thickness": 0.4855,
+    "Shell Thickness": 0.6423
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03604531288146973,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_octet/verify_15b2add0/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_octet/verify_15b2add0/output.json",
+    "<root>/cage_octet/fusion_cage_octet.ntop"
+  ],
+  "timestamp": "2026-09-20 19:15:51"
+}
