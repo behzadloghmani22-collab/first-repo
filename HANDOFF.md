@@ -78,9 +78,18 @@ There are many lattice topologies, and they behave differently at the same densi
   usually print with fewer defects.
 
 **The user has four nTop files: the same cage geometry, built with four different lattice
-types.** Which four is not recorded anywhere reliable — a previous session guessed
-octet / gyroid / diamond / Kelvin when generating fake demonstration data, and those names are
-placeholders, not facts. **One of your first jobs is to find out what the four actually are.**
+types: BCC, gyroid, Schwarz (folder spelled `schwartz`) and octet.** They live in four folders
+of those names under `...\moein new files\Moein base geometry\`. A previous session used
+octet / gyroid / diamond / Kelvin as placeholders when generating fake demonstration data;
+those placeholders are wrong and must not be carried forward.
+
+**Update 2026-09-21, later:** nTop 5.50.2 and nTopCL have since been installed on the user's
+own PC (`FaraGostar`), at `C:\Users\FaraGostar\Desktop\Desktp Files\fusion cage modeling\moein new files\`.
+If you are a session running on that PC, **everything is local**: skip the SSH material in
+section 3 and `transport.py`, and call `ntopcl` directly. The user also relaxed the tooling
+rule slightly: nTopCL is the priority and must do the engineering, but other tools (Python,
+MATLAB, ...) are allowed where they are genuinely needed. Completeness, correctness, validity
+and presentability are the stated priorities.
 
 ---
 
