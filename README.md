@@ -1,5 +1,20 @@
 # Lattice fusion-cage DOE & optimisation through nTopCL
 
+> ## ⚠ READ `HANDOFF.md` FIRST
+>
+> **No nTop run has ever been executed for this project.** Everything in `results/` was
+> produced by `mock/mock_ntopcl.py`, a Python stand-in, because the session that built this
+> repository ran on a cloud Linux machine with no access to nTop, no nTopCL and no `.ntop`
+> files. Those numbers are fabricated and must never be presented.
+>
+> Several engineering quantities are also computed in Python inside `cage_doe/objectives.py`
+> (apparent modulus, porosity, mass, safety factors, pore size) that **nTop must compute
+> instead**. `HANDOFF.md` lists every one of these defects and contains the full instruction
+> set for a Claude Code session running on the Windows PC where nTop actually lives.
+>
+> **Rule for all future work: if something can be done in nTop through nTopCL, doing it in
+> anything else is unacceptable.**
+
 `cage_doe` runs a complete design-of-experiments (DOE) and optimisation campaign on
 lattice lumbar interbody fusion cages modelled in nTop. It drives `ntopcl.exe`
 directly, sweeps the exposed input parameters of every `.ntop` variant found in a
