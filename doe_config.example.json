@@ -3,7 +3,7 @@
     "name": "Lumbar fusion cage - lattice DOE and optimisation",
     "root": "C:\\Users\\Moein Salehi\\Desktop\\moein new files",
     "results_dirname": "DOE_results",
-    "ntopcl_exe": null,
+    "ntopcl_exe": "C:\\Program Files\\nTopology\\nTopology\\ntopcl.exe",
     "extra_ntopcl_args": [],
     "timeout_s": 3600,
     "workers": 1,

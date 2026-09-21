@@ -23,7 +23,7 @@ DEFAULT_CONFIG: dict[str, Any] = {
         "results_dirname": "DOE_results",
         # Path to ntopcl.exe; null = auto-detect (env NTOPCL_EXE, then common
         # install locations).  Use mock/mock_ntopcl.py for dry runs.
-        "ntopcl_exe": None,
+        "ntopcl_exe": r"C:\Program Files\nTopology\nTopology\ntopcl.exe",
         "extra_ntopcl_args": [],
         "timeout_s": 3600,
         # nTopCL holds one licence seat: keep 1 unless you know you can run more.
