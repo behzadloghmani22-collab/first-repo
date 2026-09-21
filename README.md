@@ -1,16 +1,18 @@
 # Lattice fusion-cage DOE & optimisation through nTopCL
 
-> ## ⚠ READ `HANDOFF.md` FIRST
+> ## ⚠ READ `HANDOFF.md` FIRST — it is the entry point to this project
 >
-> **No nTop run has ever been executed for this project.** Everything in `results/` was
-> produced by `mock/mock_ntopcl.py`, a Python stand-in, because the session that built this
-> repository ran on a cloud Linux machine with no access to nTop, no nTopCL and no `.ntop`
-> files. Those numbers are fabricated and must never be presented.
+> **No nTop run has ever been executed here.** Everything in `results/` was produced by
+> `mock/mock_ntopcl.py`, a Python stand-in, because the session that built this repository ran
+> in a cloud container with no access to nTop, no nTopCL and no `.ntop` files. Those numbers
+> are fabricated and must never be presented.
 >
-> Several engineering quantities are also computed in Python inside `cage_doe/objectives.py`
-> (apparent modulus, porosity, mass, safety factors, pore size) that **nTop must compute
-> instead**. `HANDOFF.md` lists every one of these defects and contains the full instruction
-> set for a Claude Code session running on the Windows PC where nTop actually lives.
+> nTop lives on a separate Windows PC reached over SSH. Several engineering quantities are
+> also computed in Python inside `cage_doe/objectives.py` (apparent modulus, porosity, mass,
+> safety factors, pore size) that **nTop must compute instead**.
+>
+> `HANDOFF.md` explains the whole problem from scratch — the implant, the lattices, the
+> machines, the defect list and the plan. Start there.
 >
 > **Rule for all future work: if something can be done in nTop through nTopCL, doing it in
 > anything else is unacceptable.**
