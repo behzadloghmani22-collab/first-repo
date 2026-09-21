@@ -1,0 +1,23 @@
+{
+  "run_id": "lhs_1835763f",
+  "variant": "fusion_cage_kelvin",
+  "phase": "lhs",
+  "assignments": {
+    "Cell Size": 3.7981,
+    "Strut Thickness": 0.4637,
+    "Shell Thickness": 1.0885
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.032097816467285156,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/lhs_1835763f/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/lhs_1835763f/output.json",
+    "<root>/cage_kelvin/fusion_cage_kelvin.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:26"
+}

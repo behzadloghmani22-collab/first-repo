@@ -1,0 +1,539 @@
+2026-09-20 19:20:29,854 INFO nTopCL executable: <repo>/mock/mock_ntopcl.py
+2026-09-20 19:20:29,855 INFO ==============================================================================
+2026-09-20 19:20:29,855 INFO VARIANT fusion_cage_diamond (diamond)  factors: ['Cell Size', 'Strut Thickness', 'Shell Thickness']
+2026-09-20 19:20:29,894 INFO fusion_cage_diamond screen   screen_ff8427a1    ok         0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:20:29,895 INFO porosity=0.7324  E_app_GPa=4.203  max_stress_MPa=75.38  mass_g=7.113
+2026-09-20 19:20:29,932 INFO fusion_cage_diamond screen   screen_67b2dd89    ok         0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:20:29,932 INFO porosity=0.5962  E_app_GPa=9.51  max_stress_MPa=33.31  mass_g=10.73
+2026-09-20 19:20:29,968 WARNING run fusion_cage_diamond/screen_c3241ff0 failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:20:29,969 INFO fusion_cage_diamond screen   screen_c3241ff0    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:20:30,004 WARNING run fusion_cage_diamond/screen_bf965670 failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:20:30,004 INFO fusion_cage_diamond screen   screen_bf965670    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:20:30,039 INFO fusion_cage_diamond screen   screen_1ec857f9    ok         0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:20:30,040 INFO porosity=0.8876  E_app_GPa=2.852  max_stress_MPa=111.1  mass_g=2.988
+2026-09-20 19:20:30,075 INFO fusion_cage_diamond screen   screen_1caa006a    ok         0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:20:30,075 INFO porosity=0.7228  E_app_GPa=8.452  max_stress_MPa=37.48  mass_g=7.367
+2026-09-20 19:20:30,111 INFO fusion_cage_diamond screen   screen_1dd3a361    ok         0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:20:30,111 INFO porosity=0.6917  E_app_GPa=4.756  max_stress_MPa=66.61  mass_g=8.194
+2026-09-20 19:20:30,147 INFO fusion_cage_diamond screen   screen_bf65566c    ok         0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:20:30,147 INFO porosity=0.5633  E_app_GPa=10.02  max_stress_MPa=31.62  mass_g=11.61
+2026-09-20 19:20:30,183 INFO fusion_cage_diamond screen   screen_ad275d17    ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:20:30,184 INFO porosity=0.6376  E_app_GPa=7.215  max_stress_MPa=43.91  mass_g=9.634
+2026-09-20 19:20:30,232 INFO fusion_cage_diamond rsm      rsm_973dea26       ok         0.0s  Cell Size=1.5  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:20:30,232 INFO porosity=0.3363  E_app_GPa=14.68  max_stress_MPa=29.67  mass_g=17.64
+2026-09-20 19:20:30,267 INFO fusion_cage_diamond rsm      rsm_a74eb263       ok         0.0s  Cell Size=4  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:20:30,267 INFO porosity=0.7326  E_app_GPa=6.087  max_stress_MPa=52.04  mass_g=7.107
+2026-09-20 19:20:30,302 INFO fusion_cage_diamond rsm      rsm_b8b943bc       ok         0.0s  Cell Size=2.75  Strut Thickness=0.3  Shell Thickness=1
+2026-09-20 19:20:30,302 INFO porosity=0.778  E_app_GPa=5.768  max_stress_MPa=54.92  mass_g=5.9
+2026-09-20 19:20:30,336 INFO fusion_cage_diamond rsm      rsm_8f532dab       ok         0.0s  Cell Size=2.75  Strut Thickness=0.9  Shell Thickness=1
+2026-09-20 19:20:30,336 INFO porosity=0.4391  E_app_GPa=11.43  max_stress_MPa=32.52  mass_g=14.91
+2026-09-20 19:20:30,371 INFO fusion_cage_diamond rsm      rsm_25c19597       ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=0.5
+2026-09-20 19:20:30,371 INFO porosity=0.6981  E_app_GPa=4.723  max_stress_MPa=67.07  mass_g=8.025
+2026-09-20 19:20:30,406 INFO fusion_cage_diamond rsm      rsm_4fe9a9c9       ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1.5
+2026-09-20 19:20:30,406 INFO porosity=0.5697  E_app_GPa=9.943  max_stress_MPa=31.86  mass_g=11.44
+2026-09-20 19:20:30,500 INFO fusion_cage_diamond lhs      lhs_ee6965f8       ok         0.0s  Cell Size=1.8253  Strut Thickness=0.3827  Shell Thickness=1.2128
+2026-09-20 19:20:30,500 INFO porosity=0.6213  E_app_GPa=8.23  max_stress_MPa=38.49  mass_g=10.07
+2026-09-20 19:20:30,535 INFO fusion_cage_diamond lhs      lhs_261f37a5       ok         0.0s  Cell Size=2.4875  Strut Thickness=0.826  Shell Thickness=1.4484
+2026-09-20 19:20:30,535 INFO porosity=0.392  E_app_GPa=13.73  max_stress_MPa=28.55  mass_g=16.16
+2026-09-20 19:20:30,570 INFO fusion_cage_diamond lhs      lhs_f5a13a95       ok         0.0s  Cell Size=1.5237  Strut Thickness=0.604  Shell Thickness=0.9796
+2026-09-20 19:20:30,571 INFO porosity=0.3353  E_app_GPa=14.49  max_stress_MPa=29.55  mass_g=17.67
+2026-09-20 19:20:30,605 INFO fusion_cage_diamond lhs      lhs_441a733c       ok         0.0s  Cell Size=3.3541  Strut Thickness=0.4557  Shell Thickness=0.6593
+2026-09-20 19:20:30,605 INFO porosity=0.801  E_app_GPa=4.07  max_stress_MPa=77.83  mass_g=5.289
+2026-09-20 19:20:30,641 INFO fusion_cage_diamond lhs      lhs_101ca8dd       ok         0.0s  Cell Size=2.7614  Strut Thickness=0.5823  Shell Thickness=1.0447
+2026-09-20 19:20:30,641 INFO porosity=0.6434  E_app_GPa=7.349  max_stress_MPa=43.11  mass_g=9.479
+2026-09-20 19:20:30,676 INFO fusion_cage_diamond lhs      lhs_7401a6a3       ok         0.0s  Cell Size=2.7396  Strut Thickness=0.3262  Shell Thickness=0.7696
+2026-09-20 19:20:30,676 INFO porosity=0.804  E_app_GPa=4.548  max_stress_MPa=69.66  mass_g=5.21
+2026-09-20 19:20:30,710 INFO fusion_cage_diamond lhs      lhs_c5d917f1       ok         0.0s  Cell Size=3.5234  Strut Thickness=0.8896  Shell Thickness=0.8859
+2026-09-20 19:20:30,710 INFO porosity=0.5916  E_app_GPa=7.686  max_stress_MPa=41.22  mass_g=10.86
+2026-09-20 19:20:30,747 INFO fusion_cage_diamond lhs      lhs_db5c0dc0       ok         0.0s  Cell Size=3.7623  Strut Thickness=0.5324  Shell Thickness=1.3851
+2026-09-20 19:20:30,747 INFO porosity=0.6835  E_app_GPa=8.136  max_stress_MPa=38.94  mass_g=8.413
+2026-09-20 19:20:30,782 INFO fusion_cage_diamond lhs      lhs_6ab4a643       ok         0.0s  Cell Size=2.1037  Strut Thickness=0.7467  Shell Thickness=0.5793
+2026-09-20 19:20:30,782 INFO porosity=0.4262  E_app_GPa=11.07  max_stress_MPa=37.23  mass_g=15.25
+2026-09-20 19:20:30,817 INFO fusion_cage_diamond lhs      lhs_abc7ea44       ok         0.0s  Cell Size=3.1713  Strut Thickness=0.6974  Shell Thickness=1.1517
+2026-09-20 19:20:30,817 INFO porosity=0.6121  E_app_GPa=8.162  max_stress_MPa=38.81  mass_g=10.31
+2026-09-20 19:20:34,050 INFO fusion_cage_diamond infill1  infill1_9525447c   ok         0.0s  Cell Size=1.923  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:20:34,050 INFO porosity=0.6695  E_app_GPa=5.213  max_stress_MPa=60.77  mass_g=8.785
+2026-09-20 19:20:34,085 INFO fusion_cage_diamond infill1  infill1_b3c2d15d   ok         0.0s  Cell Size=1.5584  Strut Thickness=0.5308  Shell Thickness=0.5024
+2026-09-20 19:20:34,085 INFO porosity=0.4642  E_app_GPa=9.934  max_stress_MPa=41.13  mass_g=14.24
+2026-09-20 19:20:34,122 INFO fusion_cage_diamond infill1  infill1_13132fc4   ok         0.0s  Cell Size=1.5081  Strut Thickness=0.3437  Shell Thickness=0.8639
+2026-09-20 19:20:34,122 INFO porosity=0.639  E_app_GPa=6.737  max_stress_MPa=47.02  mass_g=9.594
+2026-09-20 19:20:37,976 WARNING run fusion_cage_diamond/infill2_c634efae failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:20:37,976 INFO fusion_cage_diamond infill2  infill2_c634efae   failed     0.0s  Cell Size=1.5635  Strut Thickness=0.8717  Shell Thickness=0.985
+2026-09-20 19:20:38,013 INFO fusion_cage_diamond infill2  infill2_4c02b1eb   ok         0.0s  Cell Size=2.1796  Strut Thickness=0.5108  Shell Thickness=0.8075
+2026-09-20 19:20:38,013 INFO porosity=0.6326  E_app_GPa=6.67  max_stress_MPa=47.5  mass_g=9.765
+2026-09-20 19:20:55,707 INFO fusion_cage_diamond verify   verify_3884fea6    ok         0.0s  Cell Size=1.9226  Strut Thickness=0.4497  Shell Thickness=0.5
+2026-09-20 19:20:55,707 INFO porosity=0.6715  E_app_GPa=5.183  max_stress_MPa=61.12  mass_g=8.731
+2026-09-20 19:20:55,743 INFO fusion_cage_diamond verify   verify_bebb9cb6    ok         0.0s  Cell Size=1.6506  Strut Thickness=0.3847  Shell Thickness=0.5362
+2026-09-20 19:20:55,743 INFO porosity=0.6711  E_app_GPa=5.306  max_stress_MPa=59.7  mass_g=8.743
+2026-09-20 19:20:55,783 INFO fusion_cage_diamond verify   verify_dcb2808c    ok         0.0s  Cell Size=1.7971  Strut Thickness=0.4295  Shell Thickness=0.6479
+2026-09-20 19:20:55,783 INFO porosity=0.6457  E_app_GPa=5.996  max_stress_MPa=52.84  mass_g=9.418
+2026-09-20 19:20:57,068 INFO ==============================================================================
+2026-09-20 19:20:57,068 INFO VARIANT fusion_cage_gyroid (gyroid)  factors: ['Cell Size', 'Strut Thickness', 'Shell Thickness']
+2026-09-20 19:20:57,107 INFO fusion_cage_gyroid screen   screen_ff8427a1    ok         0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:20:57,107 INFO porosity=0.4659  E_app_GPa=13.81  max_stress_MPa=28.73  mass_g=14.2
+2026-09-20 19:20:57,143 INFO fusion_cage_gyroid screen   screen_67b2dd89    ok         0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:20:57,143 INFO porosity=0.3783  E_app_GPa=17.73  max_stress_MPa=23.56  mass_g=16.53
+2026-09-20 19:20:57,181 WARNING run fusion_cage_gyroid/screen_c3241ff0 failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:20:57,181 INFO fusion_cage_gyroid screen   screen_c3241ff0    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:20:57,219 WARNING run fusion_cage_gyroid/screen_bf965670 failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:20:57,219 INFO fusion_cage_gyroid screen   screen_bf965670    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:20:57,257 INFO fusion_cage_gyroid screen   screen_1ec857f9    ok         0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:20:57,258 INFO porosity=0.7233  E_app_GPa=6.27  max_stress_MPa=72.35  mass_g=7.354
+2026-09-20 19:20:57,297 INFO fusion_cage_gyroid screen   screen_1caa006a    ok         0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:20:57,297 INFO porosity=0.5835  E_app_GPa=11.26  max_stress_MPa=40.81  mass_g=11.07
+2026-09-20 19:20:57,334 INFO fusion_cage_gyroid screen   screen_1dd3a361    ok         0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:20:57,334 INFO porosity=0.428  E_app_GPa=15.22  max_stress_MPa=26.21  mass_g=15.2
+2026-09-20 19:20:57,372 INFO fusion_cage_gyroid screen   screen_bf65566c    ok         0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:20:57,372 INFO porosity=0.3467  E_app_GPa=18.69  max_stress_MPa=21.73  mass_g=17.36
+2026-09-20 19:20:57,412 INFO fusion_cage_gyroid screen   screen_ad275d17    ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:20:57,412 INFO porosity=0.4001  E_app_GPa=16.51  max_stress_MPa=23.7  mass_g=15.95
+2026-09-20 19:20:57,463 INFO fusion_cage_gyroid rsm      rsm_973dea26       ok         0.0s  Cell Size=1.5  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:20:57,463 INFO porosity=0.131  E_app_GPa=27.14  max_stress_MPa=15.93  mass_g=23.1
+2026-09-20 19:20:57,502 INFO fusion_cage_gyroid rsm      rsm_a74eb263       ok         0.0s  Cell Size=4  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:20:57,502 INFO porosity=0.5017  E_app_GPa=12.92  max_stress_MPa=29.82  mass_g=13.25
+2026-09-20 19:20:57,540 INFO fusion_cage_gyroid rsm      rsm_b8b943bc       ok         0.0s  Cell Size=2.75  Strut Thickness=0.3  Shell Thickness=1
+2026-09-20 19:20:57,540 INFO porosity=0.5827  E_app_GPa=10.49  max_stress_MPa=38.91  mass_g=11.09
+2026-09-20 19:20:57,579 INFO fusion_cage_gyroid rsm      rsm_8f532dab       ok         0.0s  Cell Size=2.75  Strut Thickness=0.9  Shell Thickness=1
+2026-09-20 19:20:57,579 INFO porosity=0.2551  E_app_GPa=22.43  max_stress_MPa=18.89  mass_g=19.8
+2026-09-20 19:20:57,618 INFO fusion_cage_gyroid rsm      rsm_25c19597       ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=0.5
+2026-09-20 19:20:57,618 INFO porosity=0.4507  E_app_GPa=14.49  max_stress_MPa=27.85  mass_g=14.6
+2026-09-20 19:20:57,655 INFO fusion_cage_gyroid rsm      rsm_4fe9a9c9       ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1.5
+2026-09-20 19:20:57,656 INFO porosity=0.3687  E_app_GPa=17.83  max_stress_MPa=22.26  mass_g=16.78
+2026-09-20 19:20:57,749 INFO fusion_cage_gyroid lhs      lhs_57719be7       ok         0.0s  Cell Size=3.1448  Strut Thickness=0.7095  Shell Thickness=1.4038
+2026-09-20 19:20:57,750 INFO porosity=0.3568  E_app_GPa=18.44  max_stress_MPa=22.6  mass_g=17.1
+2026-09-20 19:20:57,788 INFO fusion_cage_gyroid lhs      lhs_6827a898       ok         0.0s  Cell Size=2.2147  Strut Thickness=0.6405  Shell Thickness=1.0853
+2026-09-20 19:20:57,788 INFO porosity=0.3211  E_app_GPa=19.15  max_stress_MPa=19.81  mass_g=18.04
+2026-09-20 19:20:57,859 INFO fusion_cage_gyroid lhs      lhs_168973d7       ok         0.1s  Cell Size=2.722  Strut Thickness=0.8562  Shell Thickness=1.2295
+2026-09-20 19:20:57,859 INFO porosity=0.2701  E_app_GPa=21.78  max_stress_MPa=19  mass_g=19.4
+2026-09-20 19:20:57,896 INFO fusion_cage_gyroid lhs      lhs_e62ca71d       ok         0.0s  Cell Size=1.7351  Strut Thickness=0.3851  Shell Thickness=1.3069
+2026-09-20 19:20:57,897 INFO porosity=0.3696  E_app_GPa=17.96  max_stress_MPa=22.31  mass_g=16.75
+2026-09-20 19:20:57,932 INFO fusion_cage_gyroid lhs      lhs_b3dd5154       ok         0.0s  Cell Size=1.9085  Strut Thickness=0.7737  Shell Thickness=0.679
+2026-09-20 19:20:57,932 INFO porosity=0.1303  E_app_GPa=26.47  max_stress_MPa=14.91  mass_g=23.12
+2026-09-20 19:20:57,969 INFO fusion_cage_gyroid lhs      lhs_2feb32b2       ok         0.0s  Cell Size=3.9575  Strut Thickness=0.5604  Shell Thickness=1.1341
+2026-09-20 19:20:57,969 INFO porosity=0.5068  E_app_GPa=12.94  max_stress_MPa=31.69  mass_g=13.11
+2026-09-20 19:20:58,007 INFO fusion_cage_gyroid lhs      lhs_068f6878       ok         0.0s  Cell Size=2.4991  Strut Thickness=0.5172  Shell Thickness=0.5648
+2026-09-20 19:20:58,007 INFO porosity=0.4484  E_app_GPa=14.77  max_stress_MPa=28.53  mass_g=14.66
+2026-09-20 19:20:58,044 INFO fusion_cage_gyroid lhs      lhs_c97b2a76       ok         0.0s  Cell Size=3.5326  Strut Thickness=0.8068  Shell Thickness=0.8949
+2026-09-20 19:20:58,044 INFO porosity=0.397  E_app_GPa=16.63  max_stress_MPa=23.75  mass_g=16.03
+2026-09-20 19:20:58,080 INFO fusion_cage_gyroid lhs      lhs_8a39aeb3       ok         0.0s  Cell Size=3.3565  Strut Thickness=0.4344  Shell Thickness=0.7226
+2026-09-20 19:20:58,080 INFO porosity=0.5785  E_app_GPa=10.64  max_stress_MPa=40.12  mass_g=11.21
+2026-09-20 19:20:58,118 INFO fusion_cage_gyroid lhs      lhs_b1730703       ok         0.0s  Cell Size=2.8913  Strut Thickness=0.3189  Shell Thickness=0.9084
+2026-09-20 19:20:58,118 INFO porosity=0.5931  E_app_GPa=10.28  max_stress_MPa=41.05  mass_g=10.82
+2026-09-20 19:21:01,783 INFO fusion_cage_gyroid infill1  infill1_60cd5818   ok         0.0s  Cell Size=2.0498  Strut Thickness=0.3274  Shell Thickness=0.5
+2026-09-20 19:21:01,784 INFO porosity=0.5383  E_app_GPa=11.74  max_stress_MPa=34.3  mass_g=12.27
+2026-09-20 19:21:01,819 INFO fusion_cage_gyroid infill1  infill1_3ededb04   ok         0.0s  Cell Size=2.2086  Strut Thickness=0.3137  Shell Thickness=0.658
+2026-09-20 19:21:01,819 INFO porosity=0.5617  E_app_GPa=10.84  max_stress_MPa=37.27  mass_g=11.65
+2026-09-20 19:21:01,854 INFO fusion_cage_gyroid infill1  infill1_3cabd755   ok         0.0s  Cell Size=2.0596  Strut Thickness=0.4239  Shell Thickness=0.9774
+2026-09-20 19:21:01,854 INFO porosity=0.4202  E_app_GPa=15.93  max_stress_MPa=25.48  mass_g=15.41
+2026-09-20 19:21:05,656 INFO fusion_cage_gyroid infill2  infill2_520be93a   ok         0.0s  Cell Size=2.2125  Strut Thickness=0.3347  Shell Thickness=1.4913
+2026-09-20 19:21:05,656 INFO porosity=0.4509  E_app_GPa=15.03  max_stress_MPa=27.63  mass_g=14.59
+2026-09-20 19:21:05,692 INFO fusion_cage_gyroid infill2  infill2_8c242c86   ok         0.0s  Cell Size=2.508  Strut Thickness=0.4889  Shell Thickness=1.2443
+2026-09-20 19:21:05,693 INFO porosity=0.4208  E_app_GPa=15.89  max_stress_MPa=25.83  mass_g=15.39
+2026-09-20 19:21:23,840 INFO fusion_cage_gyroid verify   verify_882074c3    ok         0.0s  Cell Size=2.0513  Strut Thickness=0.3282  Shell Thickness=0.5
+2026-09-20 19:21:23,840 INFO porosity=0.5463  E_app_GPa=11.44  max_stress_MPa=35.49  mass_g=12.06
+2026-09-20 19:21:23,877 INFO fusion_cage_gyroid verify   verify_82c18518    ok         0.0s  Cell Size=2.1158  Strut Thickness=0.3444  Shell Thickness=0.6395
+2026-09-20 19:21:23,877 INFO porosity=0.5272  E_app_GPa=11.81  max_stress_MPa=33.09  mass_g=12.57
+2026-09-20 19:21:23,913 INFO fusion_cage_gyroid verify   verify_63644003    ok         0.0s  Cell Size=2.0735  Strut Thickness=0.3397  Shell Thickness=0.7821
+2026-09-20 19:21:23,913 INFO porosity=0.5094  E_app_GPa=12.64  max_stress_MPa=31.76  mass_g=13.04
+2026-09-20 19:21:25,105 INFO ==============================================================================
+2026-09-20 19:21:25,105 INFO VARIANT fusion_cage_kelvin (kelvin)  factors: ['Cell Size', 'Strut Thickness', 'Shell Thickness']
+2026-09-20 19:21:25,143 INFO fusion_cage_kelvin screen   screen_ff8427a1    ok         0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:21:25,144 INFO porosity=0.6901  E_app_GPa=4.879  max_stress_MPa=75.1  mass_g=8.236
+2026-09-20 19:21:25,179 INFO fusion_cage_kelvin screen   screen_67b2dd89    ok         0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:21:25,179 INFO porosity=0.5649  E_app_GPa=10.07  max_stress_MPa=36.44  mass_g=11.57
+2026-09-20 19:21:25,214 WARNING run fusion_cage_kelvin/screen_c3241ff0 failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:21:25,214 INFO fusion_cage_kelvin screen   screen_c3241ff0    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:21:25,248 WARNING run fusion_cage_kelvin/screen_bf965670 failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:21:25,249 INFO fusion_cage_kelvin screen   screen_bf965670    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:21:25,285 INFO fusion_cage_kelvin screen   screen_1ec857f9    ok         0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:21:25,285 INFO porosity=0.8816  E_app_GPa=2.851  max_stress_MPa=111.1  mass_g=3.147
+2026-09-20 19:21:25,320 INFO fusion_cage_kelvin screen   screen_1caa006a    ok         0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:21:25,321 INFO porosity=0.7171  E_app_GPa=8.455  max_stress_MPa=37.47  mass_g=7.519
+2026-09-20 19:21:25,356 INFO fusion_cage_kelvin screen   screen_1dd3a361    ok         0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:21:25,357 INFO porosity=0.6445  E_app_GPa=5.831  max_stress_MPa=69.43  mass_g=9.449
+2026-09-20 19:21:25,394 INFO fusion_cage_kelvin screen   screen_bf65566c    ok         0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:21:25,395 INFO porosity=0.5266  E_app_GPa=10.83  max_stress_MPa=37.32  mass_g=12.58
+2026-09-20 19:21:25,432 INFO fusion_cage_kelvin screen   screen_ad275d17    ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:21:25,432 INFO porosity=0.5969  E_app_GPa=8.157  max_stress_MPa=48.4  mass_g=10.71
+2026-09-20 19:21:25,481 INFO fusion_cage_kelvin rsm      rsm_973dea26       ok         0.0s  Cell Size=1.5  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:21:25,481 INFO porosity=0.2233  E_app_GPa=22.24  max_stress_MPa=33.52  mass_g=20.64
+2026-09-20 19:21:25,518 INFO fusion_cage_kelvin rsm      rsm_a74eb263       ok         0.0s  Cell Size=4  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:21:25,518 INFO porosity=0.7136  E_app_GPa=6.231  max_stress_MPa=50.84  mass_g=7.611
+2026-09-20 19:21:25,553 INFO fusion_cage_kelvin rsm      rsm_b8b943bc       ok         0.0s  Cell Size=2.75  Strut Thickness=0.3  Shell Thickness=1
+2026-09-20 19:21:25,554 INFO porosity=0.7671  E_app_GPa=5.796  max_stress_MPa=54.66  mass_g=6.191
+2026-09-20 19:21:25,588 INFO fusion_cage_kelvin rsm      rsm_8f532dab       ok         0.0s  Cell Size=2.75  Strut Thickness=0.9  Shell Thickness=1
+2026-09-20 19:21:25,588 INFO porosity=0.3931  E_app_GPa=14.42  max_stress_MPa=40.78  mass_g=16.13
+2026-09-20 19:21:25,623 INFO fusion_cage_kelvin rsm      rsm_25c19597       ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=0.5
+2026-09-20 19:21:25,623 INFO porosity=0.653  E_app_GPa=5.624  max_stress_MPa=70.69  mass_g=9.224
+2026-09-20 19:21:25,658 INFO fusion_cage_kelvin rsm      rsm_4fe9a9c9       ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1.5
+2026-09-20 19:21:25,659 INFO porosity=0.5323  E_app_GPa=10.82  max_stress_MPa=38.16  mass_g=12.43
+2026-09-20 19:21:25,745 INFO fusion_cage_kelvin lhs      lhs_254db115       ok         0.0s  Cell Size=3.4557  Strut Thickness=0.6033  Shell Thickness=1.4507
+2026-09-20 19:21:25,745 INFO porosity=0.6101  E_app_GPa=9.208  max_stress_MPa=34.4  mass_g=10.36
+2026-09-20 19:21:25,779 INFO fusion_cage_kelvin lhs      lhs_00b5db6c       ok         0.0s  Cell Size=3.0566  Strut Thickness=0.3094  Shell Thickness=0.7688
+2026-09-20 19:21:25,779 INFO porosity=0.811  E_app_GPa=4.465  max_stress_MPa=70.95  mass_g=5.024
+2026-09-20 19:21:25,813 INFO fusion_cage_kelvin lhs      lhs_070c87e2       ok         0.0s  Cell Size=2.5228  Strut Thickness=0.5356  Shell Thickness=0.5886
+2026-09-20 19:21:25,813 INFO porosity=0.6571  E_app_GPa=5.754  max_stress_MPa=68.34  mass_g=9.114
+2026-09-20 19:21:25,847 INFO fusion_cage_kelvin lhs      lhs_d5406d00       ok         0.0s  Cell Size=2.0254  Strut Thickness=0.4  Shell Thickness=1.3666
+2026-09-20 19:21:25,847 INFO porosity=0.5867  E_app_GPa=9.314  max_stress_MPa=38.22  mass_g=10.98
+2026-09-20 19:21:25,881 INFO fusion_cage_kelvin lhs      lhs_27ad932e       ok         0.0s  Cell Size=1.851  Strut Thickness=0.8138  Shell Thickness=0.8428
+2026-09-20 19:21:25,881 INFO porosity=0.1033  E_app_GPa=30.5  max_stress_MPa=29.28  mass_g=23.84
+2026-09-20 19:21:25,915 INFO fusion_cage_kelvin lhs      lhs_eb515f3e       ok         0.0s  Cell Size=2.2975  Strut Thickness=0.6658  Shell Thickness=1.1864
+2026-09-20 19:21:25,915 INFO porosity=0.4388  E_app_GPa=12.74  max_stress_MPa=42.81  mass_g=14.92
+2026-09-20 19:21:25,949 INFO fusion_cage_kelvin lhs      lhs_41176075       ok         0.0s  Cell Size=3.6405  Strut Thickness=0.7684  Shell Thickness=0.611
+2026-09-20 19:21:25,949 INFO porosity=0.6605  E_app_GPa=5.817  max_stress_MPa=63.67  mass_g=9.023
+2026-09-20 19:21:25,983 INFO fusion_cage_kelvin lhs      lhs_339dfff3       ok         0.0s  Cell Size=1.5823  Strut Thickness=0.5414  Shell Thickness=0.9786
+2026-09-20 19:21:25,984 INFO porosity=0.3701  E_app_GPa=15.13  max_stress_MPa=40.54  mass_g=16.74
+2026-09-20 19:21:26,018 INFO fusion_cage_kelvin lhs      lhs_7f7cc8d0       ok         0.0s  Cell Size=2.8247  Strut Thickness=0.8972  Shell Thickness=1.2609
+2026-09-20 19:21:26,018 INFO porosity=0.3741  E_app_GPa=15.36  max_stress_MPa=40.01  mass_g=16.64
+2026-09-20 19:21:26,051 INFO fusion_cage_kelvin lhs      lhs_1835763f       ok         0.0s  Cell Size=3.7981  Strut Thickness=0.4637  Shell Thickness=1.0885
+2026-09-20 19:21:26,051 INFO porosity=0.7356  E_app_GPa=6.395  max_stress_MPa=49.54  mass_g=7.028
+2026-09-20 19:21:28,757 INFO fusion_cage_kelvin infill1  infill1_547b85db   ok         0.0s  Cell Size=2.0833  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:21:28,758 INFO porosity=0.6637  E_app_GPa=5.428  max_stress_MPa=73  mass_g=8.94
+2026-09-20 19:21:28,793 INFO fusion_cage_kelvin infill1  infill1_13132fc4   ok         0.0s  Cell Size=1.5081  Strut Thickness=0.3437  Shell Thickness=0.8639
+2026-09-20 19:21:28,794 INFO porosity=0.5967  E_app_GPa=7.876  max_stress_MPa=52.58  mass_g=10.72
+2026-09-20 19:21:28,831 INFO fusion_cage_kelvin infill1  infill1_32f8d08d   ok         0.0s  Cell Size=2.2477  Strut Thickness=0.4413  Shell Thickness=0.8464
+2026-09-20 19:21:28,832 INFO porosity=0.6596  E_app_GPa=6.477  max_stress_MPa=52.27  mass_g=9.049
+2026-09-20 19:21:31,553 INFO fusion_cage_kelvin infill2  infill2_13b7e2be   ok         0.0s  Cell Size=1.5065  Strut Thickness=0.431  Shell Thickness=0.5922
+2026-09-20 19:21:31,553 INFO porosity=0.503  E_app_GPa=10.05  max_stress_MPa=55.2  mass_g=13.21
+2026-09-20 19:21:31,591 INFO fusion_cage_kelvin infill2  infill2_9b243a3d   ok         0.0s  Cell Size=1.5915  Strut Thickness=0.314  Shell Thickness=1.1597
+2026-09-20 19:21:31,591 INFO porosity=0.6137  E_app_GPa=8.21  max_stress_MPa=44.36  mass_g=10.27
+2026-09-20 19:21:45,926 INFO fusion_cage_kelvin verify   verify_infill1_547b85db cached     0.0s  Cell Size=2.0833  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:21:45,926 INFO porosity=0.6637  E_app_GPa=5.428  max_stress_MPa=73  mass_g=8.94
+2026-09-20 19:21:45,963 INFO fusion_cage_kelvin verify   verify_7f96efc1    ok         0.0s  Cell Size=2.0897  Strut Thickness=0.4594  Shell Thickness=0.6543
+2026-09-20 19:21:45,963 INFO porosity=0.639  E_app_GPa=6.424  max_stress_MPa=63.01  mass_g=9.594
+2026-09-20 19:21:45,997 INFO fusion_cage_kelvin verify   verify_1b3b503a    ok         0.0s  Cell Size=1.8746  Strut Thickness=0.4004  Shell Thickness=0.6
+2026-09-20 19:21:45,997 INFO porosity=0.6523  E_app_GPa=5.968  max_stress_MPa=66.09  mass_g=9.242
+2026-09-20 19:21:47,297 INFO ==============================================================================
+2026-09-20 19:21:47,297 INFO VARIANT fusion_cage_octet (octet)  factors: ['Cell Size', 'Strut Thickness', 'Shell Thickness']
+2026-09-20 19:21:47,298 INFO fusion_cage_octet: imported prior run fusion_cage_octet_output.json
+2026-09-20 19:21:47,344 INFO fusion_cage_octet screen   screen_ff8427a1    ok         0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:21:47,344 INFO porosity=0.6942  E_app_GPa=6.045  max_stress_MPa=52.41  mass_g=8.129
+2026-09-20 19:21:47,379 INFO fusion_cage_octet screen   screen_67b2dd89    ok         0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:21:47,379 INFO porosity=0.5628  E_app_GPa=11.06  max_stress_MPa=28.64  mass_g=11.62
+2026-09-20 19:21:47,416 WARNING run fusion_cage_octet/screen_c3241ff0 failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:21:47,416 INFO fusion_cage_octet screen   screen_c3241ff0    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:21:47,452 WARNING run fusion_cage_octet/screen_bf965670 failed: ntopcl exit code 2; see ntopcl.log
+2026-09-20 19:21:47,452 INFO fusion_cage_octet screen   screen_bf965670    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:21:47,488 INFO fusion_cage_octet screen   screen_1ec857f9    ok         0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:21:47,488 INFO porosity=0.8815  E_app_GPa=3.212  max_stress_MPa=122.5  mass_g=3.15
+2026-09-20 19:21:47,525 INFO fusion_cage_octet screen   screen_1caa006a    ok         0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:21:47,525 INFO porosity=0.717  E_app_GPa=8.756  max_stress_MPa=44.04  mass_g=7.522
+2026-09-20 19:21:47,561 INFO fusion_cage_octet screen   screen_1dd3a361    ok         0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:21:47,562 INFO porosity=0.6415  E_app_GPa=6.755  max_stress_MPa=46.9  mass_g=9.529
+2026-09-20 19:21:47,600 INFO fusion_cage_octet screen   screen_bf65566c    ok         0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:21:47,600 INFO porosity=0.5213  E_app_GPa=11.62  max_stress_MPa=27.25  mass_g=12.72
+2026-09-20 19:21:47,638 INFO fusion_cage_octet screen   screen_ad275d17    ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:21:47,638 INFO porosity=0.5977  E_app_GPa=8.941  max_stress_MPa=35.43  mass_g=10.69
+2026-09-20 19:21:47,688 INFO fusion_cage_octet rsm      rsm_973dea26       ok         0.0s  Cell Size=1.5  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:21:47,688 INFO porosity=0.2148  E_app_GPa=15.51  max_stress_MPa=20.43  mass_g=20.87
+2026-09-20 19:21:47,723 INFO fusion_cage_octet rsm      rsm_a74eb263       ok         0.0s  Cell Size=4  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:21:47,723 INFO porosity=0.7121  E_app_GPa=7.172  max_stress_MPa=44.17  mass_g=7.652
+2026-09-20 19:21:47,759 INFO fusion_cage_octet rsm      rsm_b8b943bc       ok         0.0s  Cell Size=2.75  Strut Thickness=0.3  Shell Thickness=1
+2026-09-20 19:21:47,759 INFO porosity=0.7666  E_app_GPa=6.443  max_stress_MPa=51.64  mass_g=6.204
+2026-09-20 19:21:47,795 INFO fusion_cage_octet rsm      rsm_8f532dab       ok         0.0s  Cell Size=2.75  Strut Thickness=0.9  Shell Thickness=1
+2026-09-20 19:21:47,795 INFO porosity=0.394  E_app_GPa=12.2  max_stress_MPa=25.97  mass_g=16.11
+2026-09-20 19:21:47,830 INFO fusion_cage_octet rsm      rsm_25c19597       ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=0.5
+2026-09-20 19:21:47,830 INFO porosity=0.6592  E_app_GPa=6.591  max_stress_MPa=48.06  mass_g=9.059
+2026-09-20 19:21:47,865 INFO fusion_cage_octet rsm      rsm_4fe9a9c9       ok         0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1.5
+2026-09-20 19:21:47,865 INFO porosity=0.5386  E_app_GPa=11.35  max_stress_MPa=27.91  mass_g=12.26
+2026-09-20 19:21:47,942 INFO fusion_cage_octet lhs      lhs_b278f4d7       ok         0.0s  Cell Size=2.5164  Strut Thickness=0.5876  Shell Thickness=0.5016
+2026-09-20 19:21:47,942 INFO porosity=0.6291  E_app_GPa=6.889  max_stress_MPa=45.98  mass_g=9.857
+2026-09-20 19:21:47,978 INFO fusion_cage_octet lhs      lhs_e2e4701d       ok         0.0s  Cell Size=2.1971  Strut Thickness=0.5311  Shell Thickness=0.968
+2026-09-20 19:21:47,978 INFO porosity=0.552  E_app_GPa=9.614  max_stress_MPa=32.95  mass_g=11.91
+2026-09-20 19:21:48,015 INFO fusion_cage_octet lhs      lhs_5978fd98       ok         0.0s  Cell Size=3.723  Strut Thickness=0.4617  Shell Thickness=1.0112
+2026-09-20 19:21:48,015 INFO porosity=0.7466  E_app_GPa=6.731  max_stress_MPa=47.06  mass_g=6.736
+2026-09-20 19:21:48,051 INFO fusion_cage_octet lhs      lhs_fbb7ea15       ok         0.0s  Cell Size=2.7978  Strut Thickness=0.8736  Shell Thickness=0.8927
+2026-09-20 19:21:48,051 INFO porosity=0.4224  E_app_GPa=11.55  max_stress_MPa=27.44  mass_g=15.35
+2026-09-20 19:21:48,089 INFO fusion_cage_octet lhs      lhs_45032f84       ok         0.0s  Cell Size=1.8868  Strut Thickness=0.8053  Shell Thickness=1.3513
+2026-09-20 19:21:48,089 INFO porosity=0.1249  E_app_GPa=17.92  max_stress_MPa=17.68  mass_g=23.26
+2026-09-20 19:21:48,124 INFO fusion_cage_octet lhs      lhs_b202f787       ok         0.0s  Cell Size=1.7126  Strut Thickness=0.3797  Shell Thickness=0.7711
+2026-09-20 19:21:48,124 INFO porosity=0.6205  E_app_GPa=7.97  max_stress_MPa=39.75  mass_g=10.09
+2026-09-20 19:21:48,160 INFO fusion_cage_octet lhs      lhs_3676bd3a       ok         0.0s  Cell Size=2.3958  Strut Thickness=0.6832  Shell Thickness=1.1479
+2026-09-20 19:21:48,160 INFO porosity=0.4566  E_app_GPa=11.64  max_stress_MPa=27.21  mass_g=14.44
+2026-09-20 19:21:48,194 INFO fusion_cage_octet lhs      lhs_e6697f3d       ok         0.0s  Cell Size=3.0609  Strut Thickness=0.3255  Shell Thickness=1.2672
+2026-09-20 19:21:48,194 INFO porosity=0.7273  E_app_GPa=7.824  max_stress_MPa=41.63  mass_g=7.247
+2026-09-20 19:21:48,230 INFO fusion_cage_octet lhs      lhs_73975eab       ok         0.0s  Cell Size=3.8293  Strut Thickness=0.7702  Shell Thickness=0.6791
+2026-09-20 19:21:48,230 INFO porosity=0.6713  E_app_GPa=6.924  max_stress_MPa=45.76  mass_g=8.737
+2026-09-20 19:21:48,265 INFO fusion_cage_octet lhs      lhs_95587103       ok         0.0s  Cell Size=3.29  Strut Thickness=0.6275  Shell Thickness=1.4467
+2026-09-20 19:21:48,265 INFO porosity=0.5884  E_app_GPa=10.52  max_stress_MPa=30.12  mass_g=10.94
+2026-09-20 19:21:51,830 INFO fusion_cage_octet infill1  infill1_9ad13048   ok         0.0s  Cell Size=2.2727  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:21:51,830 INFO porosity=0.6986  E_app_GPa=5.988  max_stress_MPa=52.9  mass_g=8.01
+2026-09-20 19:21:51,868 INFO fusion_cage_octet infill1  infill1_b3c2d15d   ok         0.0s  Cell Size=1.5584  Strut Thickness=0.5308  Shell Thickness=0.5024
+2026-09-20 19:21:51,868 INFO porosity=0.4075  E_app_GPa=10.75  max_stress_MPa=29.47  mass_g=15.75
+2026-09-20 19:21:51,906 INFO fusion_cage_octet infill1  infill1_f15731e7   ok         0.0s  Cell Size=2.186  Strut Thickness=0.4441  Shell Thickness=1.3182
+2026-09-20 19:21:51,906 INFO porosity=0.5806  E_app_GPa=10.22  max_stress_MPa=30.99  mass_g=11.15
+2026-09-20 19:21:55,426 INFO fusion_cage_octet infill2  infill2_1bda0372   ok         0.0s  Cell Size=2.9823  Strut Thickness=0.8667  Shell Thickness=0.5023
+2026-09-20 19:21:55,426 INFO porosity=0.4933  E_app_GPa=9.211  max_stress_MPa=34.39  mass_g=13.47
+2026-09-20 19:21:55,461 INFO fusion_cage_octet infill2  infill2_605cf4ce   ok         0.0s  Cell Size=1.6595  Strut Thickness=0.3474  Shell Thickness=1.1259
+2026-09-20 19:21:55,462 INFO porosity=0.6008  E_app_GPa=9.27  max_stress_MPa=34.17  mass_g=10.61
+2026-09-20 19:22:13,967 INFO fusion_cage_octet verify   verify_infill1_9ad13048 cached     0.0s  Cell Size=2.2727  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:22:13,968 INFO porosity=0.6986  E_app_GPa=5.988  max_stress_MPa=52.9  mass_g=8.01
+2026-09-20 19:22:14,007 INFO fusion_cage_octet verify   verify_e9b7c750    ok         0.0s  Cell Size=2.0633  Strut Thickness=0.3776  Shell Thickness=0.5002
+2026-09-20 19:22:14,007 INFO porosity=0.7284  E_app_GPa=5.51  max_stress_MPa=57.5  mass_g=7.219
+2026-09-20 19:22:14,044 INFO fusion_cage_octet verify   verify_e6aa3f82    ok         0.0s  Cell Size=2.1455  Strut Thickness=0.4583  Shell Thickness=0.6316
+2026-09-20 19:22:14,044 INFO porosity=0.6466  E_app_GPa=7.105  max_stress_MPa=44.59  mass_g=9.393
+2026-09-20 19:22:44,701 INFO nTopCL executable: <repo>/mock/mock_ntopcl.py
+2026-09-20 19:22:44,701 INFO ==============================================================================
+2026-09-20 19:22:44,701 INFO VARIANT fusion_cage_diamond (diamond)  factors: ['Cell Size', 'Strut Thickness', 'Shell Thickness']
+2026-09-20 19:22:44,704 INFO fusion_cage_diamond screen   screen_ff8427a1    cached     0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:22:44,704 INFO porosity=0.7324  E_app_GPa=4.203  max_stress_MPa=75.38  mass_g=7.113
+2026-09-20 19:22:44,705 INFO fusion_cage_diamond screen   screen_67b2dd89    cached     0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:22:44,705 INFO porosity=0.5962  E_app_GPa=9.51  max_stress_MPa=33.31  mass_g=10.73
+2026-09-20 19:22:44,706 INFO fusion_cage_diamond screen   screen_c3241ff0    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:22:44,706 INFO fusion_cage_diamond screen   screen_bf965670    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:22:44,707 INFO fusion_cage_diamond screen   screen_1ec857f9    cached     0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:22:44,707 INFO porosity=0.8876  E_app_GPa=2.852  max_stress_MPa=111.1  mass_g=2.988
+2026-09-20 19:22:44,708 INFO fusion_cage_diamond screen   screen_1caa006a    cached     0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:22:44,708 INFO porosity=0.7228  E_app_GPa=8.452  max_stress_MPa=37.48  mass_g=7.367
+2026-09-20 19:22:44,708 INFO fusion_cage_diamond screen   screen_1dd3a361    cached     0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:22:44,708 INFO porosity=0.6917  E_app_GPa=4.756  max_stress_MPa=66.61  mass_g=8.194
+2026-09-20 19:22:44,709 INFO fusion_cage_diamond screen   screen_bf65566c    cached     0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:22:44,709 INFO porosity=0.5633  E_app_GPa=10.02  max_stress_MPa=31.62  mass_g=11.61
+2026-09-20 19:22:44,710 INFO fusion_cage_diamond screen   screen_ad275d17    cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:22:44,710 INFO porosity=0.6376  E_app_GPa=7.215  max_stress_MPa=43.91  mass_g=9.634
+2026-09-20 19:22:44,720 INFO fusion_cage_diamond rsm      rsm_973dea26       cached     0.0s  Cell Size=1.5  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:22:44,721 INFO porosity=0.3363  E_app_GPa=14.68  max_stress_MPa=29.67  mass_g=17.64
+2026-09-20 19:22:44,721 INFO fusion_cage_diamond rsm      rsm_a74eb263       cached     0.0s  Cell Size=4  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:22:44,721 INFO porosity=0.7326  E_app_GPa=6.087  max_stress_MPa=52.04  mass_g=7.107
+2026-09-20 19:22:44,722 INFO fusion_cage_diamond rsm      rsm_b8b943bc       cached     0.0s  Cell Size=2.75  Strut Thickness=0.3  Shell Thickness=1
+2026-09-20 19:22:44,722 INFO porosity=0.778  E_app_GPa=5.768  max_stress_MPa=54.92  mass_g=5.9
+2026-09-20 19:22:44,723 INFO fusion_cage_diamond rsm      rsm_8f532dab       cached     0.0s  Cell Size=2.75  Strut Thickness=0.9  Shell Thickness=1
+2026-09-20 19:22:44,723 INFO porosity=0.4391  E_app_GPa=11.43  max_stress_MPa=32.52  mass_g=14.91
+2026-09-20 19:22:44,724 INFO fusion_cage_diamond rsm      rsm_25c19597       cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=0.5
+2026-09-20 19:22:44,724 INFO porosity=0.6981  E_app_GPa=4.723  max_stress_MPa=67.07  mass_g=8.025
+2026-09-20 19:22:44,724 INFO fusion_cage_diamond rsm      rsm_4fe9a9c9       cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1.5
+2026-09-20 19:22:44,724 INFO porosity=0.5697  E_app_GPa=9.943  max_stress_MPa=31.86  mass_g=11.44
+2026-09-20 19:22:44,778 INFO fusion_cage_diamond lhs      lhs_ee6965f8       cached     0.0s  Cell Size=1.8253  Strut Thickness=0.3827  Shell Thickness=1.2128
+2026-09-20 19:22:44,778 INFO porosity=0.6213  E_app_GPa=8.23  max_stress_MPa=38.49  mass_g=10.07
+2026-09-20 19:22:44,779 INFO fusion_cage_diamond lhs      lhs_261f37a5       cached     0.0s  Cell Size=2.4875  Strut Thickness=0.826  Shell Thickness=1.4484
+2026-09-20 19:22:44,779 INFO porosity=0.392  E_app_GPa=13.73  max_stress_MPa=28.55  mass_g=16.16
+2026-09-20 19:22:44,780 INFO fusion_cage_diamond lhs      lhs_f5a13a95       cached     0.0s  Cell Size=1.5237  Strut Thickness=0.604  Shell Thickness=0.9796
+2026-09-20 19:22:44,780 INFO porosity=0.3353  E_app_GPa=14.49  max_stress_MPa=29.55  mass_g=17.67
+2026-09-20 19:22:44,781 INFO fusion_cage_diamond lhs      lhs_441a733c       cached     0.0s  Cell Size=3.3541  Strut Thickness=0.4557  Shell Thickness=0.6593
+2026-09-20 19:22:44,781 INFO porosity=0.801  E_app_GPa=4.07  max_stress_MPa=77.83  mass_g=5.289
+2026-09-20 19:22:44,781 INFO fusion_cage_diamond lhs      lhs_101ca8dd       cached     0.0s  Cell Size=2.7614  Strut Thickness=0.5823  Shell Thickness=1.0447
+2026-09-20 19:22:44,781 INFO porosity=0.6434  E_app_GPa=7.349  max_stress_MPa=43.11  mass_g=9.479
+2026-09-20 19:22:44,782 INFO fusion_cage_diamond lhs      lhs_7401a6a3       cached     0.0s  Cell Size=2.7396  Strut Thickness=0.3262  Shell Thickness=0.7696
+2026-09-20 19:22:44,782 INFO porosity=0.804  E_app_GPa=4.548  max_stress_MPa=69.66  mass_g=5.21
+2026-09-20 19:22:44,783 INFO fusion_cage_diamond lhs      lhs_c5d917f1       cached     0.0s  Cell Size=3.5234  Strut Thickness=0.8896  Shell Thickness=0.8859
+2026-09-20 19:22:44,783 INFO porosity=0.5916  E_app_GPa=7.686  max_stress_MPa=41.22  mass_g=10.86
+2026-09-20 19:22:44,784 INFO fusion_cage_diamond lhs      lhs_db5c0dc0       cached     0.0s  Cell Size=3.7623  Strut Thickness=0.5324  Shell Thickness=1.3851
+2026-09-20 19:22:44,784 INFO porosity=0.6835  E_app_GPa=8.136  max_stress_MPa=38.94  mass_g=8.413
+2026-09-20 19:22:44,784 INFO fusion_cage_diamond lhs      lhs_6ab4a643       cached     0.0s  Cell Size=2.1037  Strut Thickness=0.7467  Shell Thickness=0.5793
+2026-09-20 19:22:44,784 INFO porosity=0.4262  E_app_GPa=11.07  max_stress_MPa=37.23  mass_g=15.25
+2026-09-20 19:22:44,785 INFO fusion_cage_diamond lhs      lhs_abc7ea44       cached     0.0s  Cell Size=3.1713  Strut Thickness=0.6974  Shell Thickness=1.1517
+2026-09-20 19:22:44,785 INFO porosity=0.6121  E_app_GPa=8.162  max_stress_MPa=38.81  mass_g=10.31
+2026-09-20 19:22:47,954 INFO fusion_cage_diamond infill1  infill1_9525447c   cached     0.0s  Cell Size=1.923  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:22:47,954 INFO porosity=0.6695  E_app_GPa=5.213  max_stress_MPa=60.77  mass_g=8.785
+2026-09-20 19:22:47,955 INFO fusion_cage_diamond infill1  infill1_b3c2d15d   cached     0.0s  Cell Size=1.5584  Strut Thickness=0.5308  Shell Thickness=0.5024
+2026-09-20 19:22:47,955 INFO porosity=0.4642  E_app_GPa=9.934  max_stress_MPa=41.13  mass_g=14.24
+2026-09-20 19:22:47,955 INFO fusion_cage_diamond infill1  infill1_13132fc4   cached     0.0s  Cell Size=1.5081  Strut Thickness=0.3437  Shell Thickness=0.8639
+2026-09-20 19:22:47,955 INFO porosity=0.639  E_app_GPa=6.737  max_stress_MPa=47.02  mass_g=9.594
+2026-09-20 19:22:51,744 INFO fusion_cage_diamond infill2  infill2_c634efae   failed     0.0s  Cell Size=1.5635  Strut Thickness=0.8717  Shell Thickness=0.985
+2026-09-20 19:22:51,745 INFO fusion_cage_diamond infill2  infill2_4c02b1eb   cached     0.0s  Cell Size=2.1796  Strut Thickness=0.5108  Shell Thickness=0.8075
+2026-09-20 19:22:51,745 INFO porosity=0.6326  E_app_GPa=6.67  max_stress_MPa=47.5  mass_g=9.765
+2026-09-20 19:23:10,008 INFO fusion_cage_diamond verify   verify_3884fea6    cached     0.0s  Cell Size=1.9226  Strut Thickness=0.4497  Shell Thickness=0.5
+2026-09-20 19:23:10,008 INFO porosity=0.6715  E_app_GPa=5.183  max_stress_MPa=61.12  mass_g=8.731
+2026-09-20 19:23:10,009 INFO fusion_cage_diamond verify   verify_bebb9cb6    cached     0.0s  Cell Size=1.6506  Strut Thickness=0.3847  Shell Thickness=0.5362
+2026-09-20 19:23:10,009 INFO porosity=0.6711  E_app_GPa=5.306  max_stress_MPa=59.7  mass_g=8.743
+2026-09-20 19:23:10,010 INFO fusion_cage_diamond verify   verify_dcb2808c    cached     0.0s  Cell Size=1.7971  Strut Thickness=0.4295  Shell Thickness=0.6479
+2026-09-20 19:23:10,010 INFO porosity=0.6457  E_app_GPa=5.996  max_stress_MPa=52.84  mass_g=9.418
+2026-09-20 19:23:11,419 INFO ==============================================================================
+2026-09-20 19:23:11,419 INFO VARIANT fusion_cage_gyroid (gyroid)  factors: ['Cell Size', 'Strut Thickness', 'Shell Thickness']
+2026-09-20 19:23:11,422 INFO fusion_cage_gyroid screen   screen_ff8427a1    cached     0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:23:11,422 INFO porosity=0.4659  E_app_GPa=13.81  max_stress_MPa=28.73  mass_g=14.2
+2026-09-20 19:23:11,423 INFO fusion_cage_gyroid screen   screen_67b2dd89    cached     0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:23:11,423 INFO porosity=0.3783  E_app_GPa=17.73  max_stress_MPa=23.56  mass_g=16.53
+2026-09-20 19:23:11,423 INFO fusion_cage_gyroid screen   screen_c3241ff0    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:23:11,423 INFO fusion_cage_gyroid screen   screen_bf965670    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:23:11,424 INFO fusion_cage_gyroid screen   screen_1ec857f9    cached     0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:23:11,424 INFO porosity=0.7233  E_app_GPa=6.27  max_stress_MPa=72.35  mass_g=7.354
+2026-09-20 19:23:11,425 INFO fusion_cage_gyroid screen   screen_1caa006a    cached     0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:23:11,425 INFO porosity=0.5835  E_app_GPa=11.26  max_stress_MPa=40.81  mass_g=11.07
+2026-09-20 19:23:11,426 INFO fusion_cage_gyroid screen   screen_1dd3a361    cached     0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:23:11,426 INFO porosity=0.428  E_app_GPa=15.22  max_stress_MPa=26.21  mass_g=15.2
+2026-09-20 19:23:11,427 INFO fusion_cage_gyroid screen   screen_bf65566c    cached     0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:23:11,427 INFO porosity=0.3467  E_app_GPa=18.69  max_stress_MPa=21.73  mass_g=17.36
+2026-09-20 19:23:11,428 INFO fusion_cage_gyroid screen   screen_ad275d17    cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:11,428 INFO porosity=0.4001  E_app_GPa=16.51  max_stress_MPa=23.7  mass_g=15.95
+2026-09-20 19:23:11,447 INFO fusion_cage_gyroid rsm      rsm_973dea26       cached     0.0s  Cell Size=1.5  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:11,447 INFO porosity=0.131  E_app_GPa=27.14  max_stress_MPa=15.93  mass_g=23.1
+2026-09-20 19:23:11,448 INFO fusion_cage_gyroid rsm      rsm_a74eb263       cached     0.0s  Cell Size=4  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:11,448 INFO porosity=0.5017  E_app_GPa=12.92  max_stress_MPa=29.82  mass_g=13.25
+2026-09-20 19:23:11,450 INFO fusion_cage_gyroid rsm      rsm_b8b943bc       cached     0.0s  Cell Size=2.75  Strut Thickness=0.3  Shell Thickness=1
+2026-09-20 19:23:11,450 INFO porosity=0.5827  E_app_GPa=10.49  max_stress_MPa=38.91  mass_g=11.09
+2026-09-20 19:23:11,451 INFO fusion_cage_gyroid rsm      rsm_8f532dab       cached     0.0s  Cell Size=2.75  Strut Thickness=0.9  Shell Thickness=1
+2026-09-20 19:23:11,451 INFO porosity=0.2551  E_app_GPa=22.43  max_stress_MPa=18.89  mass_g=19.8
+2026-09-20 19:23:11,453 INFO fusion_cage_gyroid rsm      rsm_25c19597       cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=0.5
+2026-09-20 19:23:11,453 INFO porosity=0.4507  E_app_GPa=14.49  max_stress_MPa=27.85  mass_g=14.6
+2026-09-20 19:23:11,454 INFO fusion_cage_gyroid rsm      rsm_4fe9a9c9       cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1.5
+2026-09-20 19:23:11,454 INFO porosity=0.3687  E_app_GPa=17.83  max_stress_MPa=22.26  mass_g=16.78
+2026-09-20 19:23:11,533 INFO fusion_cage_gyroid lhs      lhs_57719be7       cached     0.0s  Cell Size=3.1448  Strut Thickness=0.7095  Shell Thickness=1.4038
+2026-09-20 19:23:11,533 INFO porosity=0.3568  E_app_GPa=18.44  max_stress_MPa=22.6  mass_g=17.1
+2026-09-20 19:23:11,534 INFO fusion_cage_gyroid lhs      lhs_6827a898       cached     0.0s  Cell Size=2.2147  Strut Thickness=0.6405  Shell Thickness=1.0853
+2026-09-20 19:23:11,534 INFO porosity=0.3211  E_app_GPa=19.15  max_stress_MPa=19.81  mass_g=18.04
+2026-09-20 19:23:11,535 INFO fusion_cage_gyroid lhs      lhs_168973d7       cached     0.0s  Cell Size=2.722  Strut Thickness=0.8562  Shell Thickness=1.2295
+2026-09-20 19:23:11,535 INFO porosity=0.2701  E_app_GPa=21.78  max_stress_MPa=19  mass_g=19.4
+2026-09-20 19:23:11,535 INFO fusion_cage_gyroid lhs      lhs_e62ca71d       cached     0.0s  Cell Size=1.7351  Strut Thickness=0.3851  Shell Thickness=1.3069
+2026-09-20 19:23:11,536 INFO porosity=0.3696  E_app_GPa=17.96  max_stress_MPa=22.31  mass_g=16.75
+2026-09-20 19:23:11,536 INFO fusion_cage_gyroid lhs      lhs_b3dd5154       cached     0.0s  Cell Size=1.9085  Strut Thickness=0.7737  Shell Thickness=0.679
+2026-09-20 19:23:11,536 INFO porosity=0.1303  E_app_GPa=26.47  max_stress_MPa=14.91  mass_g=23.12
+2026-09-20 19:23:11,537 INFO fusion_cage_gyroid lhs      lhs_2feb32b2       cached     0.0s  Cell Size=3.9575  Strut Thickness=0.5604  Shell Thickness=1.1341
+2026-09-20 19:23:11,537 INFO porosity=0.5068  E_app_GPa=12.94  max_stress_MPa=31.69  mass_g=13.11
+2026-09-20 19:23:11,538 INFO fusion_cage_gyroid lhs      lhs_068f6878       cached     0.0s  Cell Size=2.4991  Strut Thickness=0.5172  Shell Thickness=0.5648
+2026-09-20 19:23:11,538 INFO porosity=0.4484  E_app_GPa=14.77  max_stress_MPa=28.53  mass_g=14.66
+2026-09-20 19:23:11,539 INFO fusion_cage_gyroid lhs      lhs_c97b2a76       cached     0.0s  Cell Size=3.5326  Strut Thickness=0.8068  Shell Thickness=0.8949
+2026-09-20 19:23:11,539 INFO porosity=0.397  E_app_GPa=16.63  max_stress_MPa=23.75  mass_g=16.03
+2026-09-20 19:23:11,539 INFO fusion_cage_gyroid lhs      lhs_8a39aeb3       cached     0.0s  Cell Size=3.3565  Strut Thickness=0.4344  Shell Thickness=0.7226
+2026-09-20 19:23:11,540 INFO porosity=0.5785  E_app_GPa=10.64  max_stress_MPa=40.12  mass_g=11.21
+2026-09-20 19:23:11,540 INFO fusion_cage_gyroid lhs      lhs_b1730703       cached     0.0s  Cell Size=2.8913  Strut Thickness=0.3189  Shell Thickness=0.9084
+2026-09-20 19:23:11,540 INFO porosity=0.5931  E_app_GPa=10.28  max_stress_MPa=41.05  mass_g=10.82
+2026-09-20 19:23:15,124 INFO fusion_cage_gyroid infill1  infill1_60cd5818   cached     0.0s  Cell Size=2.0498  Strut Thickness=0.3274  Shell Thickness=0.5
+2026-09-20 19:23:15,125 INFO porosity=0.5383  E_app_GPa=11.74  max_stress_MPa=34.3  mass_g=12.27
+2026-09-20 19:23:15,125 INFO fusion_cage_gyroid infill1  infill1_3ededb04   cached     0.0s  Cell Size=2.2086  Strut Thickness=0.3137  Shell Thickness=0.658
+2026-09-20 19:23:15,125 INFO porosity=0.5617  E_app_GPa=10.84  max_stress_MPa=37.27  mass_g=11.65
+2026-09-20 19:23:15,126 INFO fusion_cage_gyroid infill1  infill1_3cabd755   cached     0.0s  Cell Size=2.0596  Strut Thickness=0.4239  Shell Thickness=0.9774
+2026-09-20 19:23:15,126 INFO porosity=0.4202  E_app_GPa=15.93  max_stress_MPa=25.48  mass_g=15.41
+2026-09-20 19:23:18,943 INFO fusion_cage_gyroid infill2  infill2_520be93a   cached     0.0s  Cell Size=2.2125  Strut Thickness=0.3347  Shell Thickness=1.4913
+2026-09-20 19:23:18,943 INFO porosity=0.4509  E_app_GPa=15.03  max_stress_MPa=27.63  mass_g=14.59
+2026-09-20 19:23:18,944 INFO fusion_cage_gyroid infill2  infill2_8c242c86   cached     0.0s  Cell Size=2.508  Strut Thickness=0.4889  Shell Thickness=1.2443
+2026-09-20 19:23:18,944 INFO porosity=0.4208  E_app_GPa=15.89  max_stress_MPa=25.83  mass_g=15.39
+2026-09-20 19:23:37,647 INFO fusion_cage_gyroid verify   verify_882074c3    cached     0.0s  Cell Size=2.0513  Strut Thickness=0.3282  Shell Thickness=0.5
+2026-09-20 19:23:37,648 INFO porosity=0.5463  E_app_GPa=11.44  max_stress_MPa=35.49  mass_g=12.06
+2026-09-20 19:23:37,649 INFO fusion_cage_gyroid verify   verify_82c18518    cached     0.0s  Cell Size=2.1158  Strut Thickness=0.3444  Shell Thickness=0.6395
+2026-09-20 19:23:37,649 INFO porosity=0.5272  E_app_GPa=11.81  max_stress_MPa=33.09  mass_g=12.57
+2026-09-20 19:23:37,649 INFO fusion_cage_gyroid verify   verify_63644003    cached     0.0s  Cell Size=2.0735  Strut Thickness=0.3397  Shell Thickness=0.7821
+2026-09-20 19:23:37,649 INFO porosity=0.5094  E_app_GPa=12.64  max_stress_MPa=31.76  mass_g=13.04
+2026-09-20 19:23:38,846 INFO ==============================================================================
+2026-09-20 19:23:38,846 INFO VARIANT fusion_cage_kelvin (kelvin)  factors: ['Cell Size', 'Strut Thickness', 'Shell Thickness']
+2026-09-20 19:23:38,849 INFO fusion_cage_kelvin screen   screen_ff8427a1    cached     0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:23:38,849 INFO porosity=0.6901  E_app_GPa=4.879  max_stress_MPa=75.1  mass_g=8.236
+2026-09-20 19:23:38,850 INFO fusion_cage_kelvin screen   screen_67b2dd89    cached     0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:23:38,850 INFO porosity=0.5649  E_app_GPa=10.07  max_stress_MPa=36.44  mass_g=11.57
+2026-09-20 19:23:38,850 INFO fusion_cage_kelvin screen   screen_c3241ff0    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:23:38,850 INFO fusion_cage_kelvin screen   screen_bf965670    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:23:38,851 INFO fusion_cage_kelvin screen   screen_1ec857f9    cached     0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:23:38,851 INFO porosity=0.8816  E_app_GPa=2.851  max_stress_MPa=111.1  mass_g=3.147
+2026-09-20 19:23:38,852 INFO fusion_cage_kelvin screen   screen_1caa006a    cached     0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:23:38,852 INFO porosity=0.7171  E_app_GPa=8.455  max_stress_MPa=37.47  mass_g=7.519
+2026-09-20 19:23:38,852 INFO fusion_cage_kelvin screen   screen_1dd3a361    cached     0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:23:38,853 INFO porosity=0.6445  E_app_GPa=5.831  max_stress_MPa=69.43  mass_g=9.449
+2026-09-20 19:23:38,853 INFO fusion_cage_kelvin screen   screen_bf65566c    cached     0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:23:38,853 INFO porosity=0.5266  E_app_GPa=10.83  max_stress_MPa=37.32  mass_g=12.58
+2026-09-20 19:23:38,854 INFO fusion_cage_kelvin screen   screen_ad275d17    cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:38,854 INFO porosity=0.5969  E_app_GPa=8.157  max_stress_MPa=48.4  mass_g=10.71
+2026-09-20 19:23:38,865 INFO fusion_cage_kelvin rsm      rsm_973dea26       cached     0.0s  Cell Size=1.5  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:38,865 INFO porosity=0.2233  E_app_GPa=22.24  max_stress_MPa=33.52  mass_g=20.64
+2026-09-20 19:23:38,866 INFO fusion_cage_kelvin rsm      rsm_a74eb263       cached     0.0s  Cell Size=4  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:38,866 INFO porosity=0.7136  E_app_GPa=6.231  max_stress_MPa=50.84  mass_g=7.611
+2026-09-20 19:23:38,867 INFO fusion_cage_kelvin rsm      rsm_b8b943bc       cached     0.0s  Cell Size=2.75  Strut Thickness=0.3  Shell Thickness=1
+2026-09-20 19:23:38,867 INFO porosity=0.7671  E_app_GPa=5.796  max_stress_MPa=54.66  mass_g=6.191
+2026-09-20 19:23:38,867 INFO fusion_cage_kelvin rsm      rsm_8f532dab       cached     0.0s  Cell Size=2.75  Strut Thickness=0.9  Shell Thickness=1
+2026-09-20 19:23:38,867 INFO porosity=0.3931  E_app_GPa=14.42  max_stress_MPa=40.78  mass_g=16.13
+2026-09-20 19:23:38,868 INFO fusion_cage_kelvin rsm      rsm_25c19597       cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=0.5
+2026-09-20 19:23:38,868 INFO porosity=0.653  E_app_GPa=5.624  max_stress_MPa=70.69  mass_g=9.224
+2026-09-20 19:23:38,869 INFO fusion_cage_kelvin rsm      rsm_4fe9a9c9       cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1.5
+2026-09-20 19:23:38,869 INFO porosity=0.5323  E_app_GPa=10.82  max_stress_MPa=38.16  mass_g=12.43
+2026-09-20 19:23:38,920 INFO fusion_cage_kelvin lhs      lhs_254db115       cached     0.0s  Cell Size=3.4557  Strut Thickness=0.6033  Shell Thickness=1.4507
+2026-09-20 19:23:38,920 INFO porosity=0.6101  E_app_GPa=9.208  max_stress_MPa=34.4  mass_g=10.36
+2026-09-20 19:23:38,921 INFO fusion_cage_kelvin lhs      lhs_00b5db6c       cached     0.0s  Cell Size=3.0566  Strut Thickness=0.3094  Shell Thickness=0.7688
+2026-09-20 19:23:38,921 INFO porosity=0.811  E_app_GPa=4.465  max_stress_MPa=70.95  mass_g=5.024
+2026-09-20 19:23:38,921 INFO fusion_cage_kelvin lhs      lhs_070c87e2       cached     0.0s  Cell Size=2.5228  Strut Thickness=0.5356  Shell Thickness=0.5886
+2026-09-20 19:23:38,922 INFO porosity=0.6571  E_app_GPa=5.754  max_stress_MPa=68.34  mass_g=9.114
+2026-09-20 19:23:38,922 INFO fusion_cage_kelvin lhs      lhs_d5406d00       cached     0.0s  Cell Size=2.0254  Strut Thickness=0.4  Shell Thickness=1.3666
+2026-09-20 19:23:38,922 INFO porosity=0.5867  E_app_GPa=9.314  max_stress_MPa=38.22  mass_g=10.98
+2026-09-20 19:23:38,923 INFO fusion_cage_kelvin lhs      lhs_27ad932e       cached     0.0s  Cell Size=1.851  Strut Thickness=0.8138  Shell Thickness=0.8428
+2026-09-20 19:23:38,923 INFO porosity=0.1033  E_app_GPa=30.5  max_stress_MPa=29.28  mass_g=23.84
+2026-09-20 19:23:38,924 INFO fusion_cage_kelvin lhs      lhs_eb515f3e       cached     0.0s  Cell Size=2.2975  Strut Thickness=0.6658  Shell Thickness=1.1864
+2026-09-20 19:23:38,924 INFO porosity=0.4388  E_app_GPa=12.74  max_stress_MPa=42.81  mass_g=14.92
+2026-09-20 19:23:38,925 INFO fusion_cage_kelvin lhs      lhs_41176075       cached     0.0s  Cell Size=3.6405  Strut Thickness=0.7684  Shell Thickness=0.611
+2026-09-20 19:23:38,925 INFO porosity=0.6605  E_app_GPa=5.817  max_stress_MPa=63.67  mass_g=9.023
+2026-09-20 19:23:38,925 INFO fusion_cage_kelvin lhs      lhs_339dfff3       cached     0.0s  Cell Size=1.5823  Strut Thickness=0.5414  Shell Thickness=0.9786
+2026-09-20 19:23:38,925 INFO porosity=0.3701  E_app_GPa=15.13  max_stress_MPa=40.54  mass_g=16.74
+2026-09-20 19:23:38,926 INFO fusion_cage_kelvin lhs      lhs_7f7cc8d0       cached     0.0s  Cell Size=2.8247  Strut Thickness=0.8972  Shell Thickness=1.2609
+2026-09-20 19:23:38,926 INFO porosity=0.3741  E_app_GPa=15.36  max_stress_MPa=40.01  mass_g=16.64
+2026-09-20 19:23:38,927 INFO fusion_cage_kelvin lhs      lhs_1835763f       cached     0.0s  Cell Size=3.7981  Strut Thickness=0.4637  Shell Thickness=1.0885
+2026-09-20 19:23:38,927 INFO porosity=0.7356  E_app_GPa=6.395  max_stress_MPa=49.54  mass_g=7.028
+2026-09-20 19:23:41,624 INFO fusion_cage_kelvin infill1  infill1_547b85db   cached     0.0s  Cell Size=2.0833  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:23:41,624 INFO porosity=0.6637  E_app_GPa=5.428  max_stress_MPa=73  mass_g=8.94
+2026-09-20 19:23:41,625 INFO fusion_cage_kelvin infill1  infill1_13132fc4   cached     0.0s  Cell Size=1.5081  Strut Thickness=0.3437  Shell Thickness=0.8639
+2026-09-20 19:23:41,625 INFO porosity=0.5967  E_app_GPa=7.876  max_stress_MPa=52.58  mass_g=10.72
+2026-09-20 19:23:41,626 INFO fusion_cage_kelvin infill1  infill1_32f8d08d   cached     0.0s  Cell Size=2.2477  Strut Thickness=0.4413  Shell Thickness=0.8464
+2026-09-20 19:23:41,626 INFO porosity=0.6596  E_app_GPa=6.477  max_stress_MPa=52.27  mass_g=9.049
+2026-09-20 19:23:44,260 INFO fusion_cage_kelvin infill2  infill2_13b7e2be   cached     0.0s  Cell Size=1.5065  Strut Thickness=0.431  Shell Thickness=0.5922
+2026-09-20 19:23:44,260 INFO porosity=0.503  E_app_GPa=10.05  max_stress_MPa=55.2  mass_g=13.21
+2026-09-20 19:23:44,261 INFO fusion_cage_kelvin infill2  infill2_9b243a3d   cached     0.0s  Cell Size=1.5915  Strut Thickness=0.314  Shell Thickness=1.1597
+2026-09-20 19:23:44,261 INFO porosity=0.6137  E_app_GPa=8.21  max_stress_MPa=44.36  mass_g=10.27
+2026-09-20 19:23:58,645 INFO fusion_cage_kelvin verify   verify_infill1_547b85db cached     0.0s  Cell Size=2.0833  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:23:58,645 INFO porosity=0.6637  E_app_GPa=5.428  max_stress_MPa=73  mass_g=8.94
+2026-09-20 19:23:58,646 INFO fusion_cage_kelvin verify   verify_7f96efc1    cached     0.0s  Cell Size=2.0897  Strut Thickness=0.4594  Shell Thickness=0.6543
+2026-09-20 19:23:58,646 INFO porosity=0.639  E_app_GPa=6.424  max_stress_MPa=63.01  mass_g=9.594
+2026-09-20 19:23:58,647 INFO fusion_cage_kelvin verify   verify_1b3b503a    cached     0.0s  Cell Size=1.8746  Strut Thickness=0.4004  Shell Thickness=0.6
+2026-09-20 19:23:58,647 INFO porosity=0.6523  E_app_GPa=5.968  max_stress_MPa=66.09  mass_g=9.242
+2026-09-20 19:23:59,947 INFO ==============================================================================
+2026-09-20 19:23:59,948 INFO VARIANT fusion_cage_octet (octet)  factors: ['Cell Size', 'Strut Thickness', 'Shell Thickness']
+2026-09-20 19:23:59,948 INFO fusion_cage_octet: imported prior run fusion_cage_octet_output.json
+2026-09-20 19:23:59,959 INFO fusion_cage_octet screen   screen_ff8427a1    cached     0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:23:59,959 INFO porosity=0.6942  E_app_GPa=6.045  max_stress_MPa=52.41  mass_g=8.129
+2026-09-20 19:23:59,960 INFO fusion_cage_octet screen   screen_67b2dd89    cached     0.0s  Cell Size=1.5  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:23:59,960 INFO porosity=0.5628  E_app_GPa=11.06  max_stress_MPa=28.64  mass_g=11.62
+2026-09-20 19:23:59,960 INFO fusion_cage_octet screen   screen_c3241ff0    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:23:59,960 INFO fusion_cage_octet screen   screen_bf965670    failed     0.0s  Cell Size=1.5  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:23:59,961 INFO fusion_cage_octet screen   screen_1ec857f9    cached     0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=0.5
+2026-09-20 19:23:59,961 INFO porosity=0.8815  E_app_GPa=3.212  max_stress_MPa=122.5  mass_g=3.15
+2026-09-20 19:23:59,962 INFO fusion_cage_octet screen   screen_1caa006a    cached     0.0s  Cell Size=4  Strut Thickness=0.3  Shell Thickness=1.5
+2026-09-20 19:23:59,962 INFO porosity=0.717  E_app_GPa=8.756  max_stress_MPa=44.04  mass_g=7.522
+2026-09-20 19:23:59,963 INFO fusion_cage_octet screen   screen_1dd3a361    cached     0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=0.5
+2026-09-20 19:23:59,963 INFO porosity=0.6415  E_app_GPa=6.755  max_stress_MPa=46.9  mass_g=9.529
+2026-09-20 19:23:59,963 INFO fusion_cage_octet screen   screen_bf65566c    cached     0.0s  Cell Size=4  Strut Thickness=0.9  Shell Thickness=1.5
+2026-09-20 19:23:59,963 INFO porosity=0.5213  E_app_GPa=11.62  max_stress_MPa=27.25  mass_g=12.72
+2026-09-20 19:23:59,964 INFO fusion_cage_octet screen   screen_ad275d17    cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:59,964 INFO porosity=0.5977  E_app_GPa=8.941  max_stress_MPa=35.43  mass_g=10.69
+2026-09-20 19:23:59,975 INFO fusion_cage_octet rsm      rsm_973dea26       cached     0.0s  Cell Size=1.5  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:59,975 INFO porosity=0.2148  E_app_GPa=15.51  max_stress_MPa=20.43  mass_g=20.87
+2026-09-20 19:23:59,976 INFO fusion_cage_octet rsm      rsm_a74eb263       cached     0.0s  Cell Size=4  Strut Thickness=0.6  Shell Thickness=1
+2026-09-20 19:23:59,976 INFO porosity=0.7121  E_app_GPa=7.172  max_stress_MPa=44.17  mass_g=7.652
+2026-09-20 19:23:59,977 INFO fusion_cage_octet rsm      rsm_b8b943bc       cached     0.0s  Cell Size=2.75  Strut Thickness=0.3  Shell Thickness=1
+2026-09-20 19:23:59,977 INFO porosity=0.7666  E_app_GPa=6.443  max_stress_MPa=51.64  mass_g=6.204
+2026-09-20 19:23:59,978 INFO fusion_cage_octet rsm      rsm_8f532dab       cached     0.0s  Cell Size=2.75  Strut Thickness=0.9  Shell Thickness=1
+2026-09-20 19:23:59,978 INFO porosity=0.394  E_app_GPa=12.2  max_stress_MPa=25.97  mass_g=16.11
+2026-09-20 19:23:59,978 INFO fusion_cage_octet rsm      rsm_25c19597       cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=0.5
+2026-09-20 19:23:59,979 INFO porosity=0.6592  E_app_GPa=6.591  max_stress_MPa=48.06  mass_g=9.059
+2026-09-20 19:23:59,979 INFO fusion_cage_octet rsm      rsm_4fe9a9c9       cached     0.0s  Cell Size=2.75  Strut Thickness=0.6  Shell Thickness=1.5
+2026-09-20 19:23:59,979 INFO porosity=0.5386  E_app_GPa=11.35  max_stress_MPa=27.91  mass_g=12.26
+2026-09-20 19:24:00,016 INFO fusion_cage_octet lhs      lhs_b278f4d7       cached     0.0s  Cell Size=2.5164  Strut Thickness=0.5876  Shell Thickness=0.5016
+2026-09-20 19:24:00,017 INFO porosity=0.6291  E_app_GPa=6.889  max_stress_MPa=45.98  mass_g=9.857
+2026-09-20 19:24:00,017 INFO fusion_cage_octet lhs      lhs_e2e4701d       cached     0.0s  Cell Size=2.1971  Strut Thickness=0.5311  Shell Thickness=0.968
+2026-09-20 19:24:00,017 INFO porosity=0.552  E_app_GPa=9.614  max_stress_MPa=32.95  mass_g=11.91
+2026-09-20 19:24:00,018 INFO fusion_cage_octet lhs      lhs_5978fd98       cached     0.0s  Cell Size=3.723  Strut Thickness=0.4617  Shell Thickness=1.0112
+2026-09-20 19:24:00,018 INFO porosity=0.7466  E_app_GPa=6.731  max_stress_MPa=47.06  mass_g=6.736
+2026-09-20 19:24:00,019 INFO fusion_cage_octet lhs      lhs_fbb7ea15       cached     0.0s  Cell Size=2.7978  Strut Thickness=0.8736  Shell Thickness=0.8927
+2026-09-20 19:24:00,019 INFO porosity=0.4224  E_app_GPa=11.55  max_stress_MPa=27.44  mass_g=15.35
+2026-09-20 19:24:00,020 INFO fusion_cage_octet lhs      lhs_45032f84       cached     0.0s  Cell Size=1.8868  Strut Thickness=0.8053  Shell Thickness=1.3513
+2026-09-20 19:24:00,020 INFO porosity=0.1249  E_app_GPa=17.92  max_stress_MPa=17.68  mass_g=23.26
+2026-09-20 19:24:00,020 INFO fusion_cage_octet lhs      lhs_b202f787       cached     0.0s  Cell Size=1.7126  Strut Thickness=0.3797  Shell Thickness=0.7711
+2026-09-20 19:24:00,020 INFO porosity=0.6205  E_app_GPa=7.97  max_stress_MPa=39.75  mass_g=10.09
+2026-09-20 19:24:00,021 INFO fusion_cage_octet lhs      lhs_3676bd3a       cached     0.0s  Cell Size=2.3958  Strut Thickness=0.6832  Shell Thickness=1.1479
+2026-09-20 19:24:00,021 INFO porosity=0.4566  E_app_GPa=11.64  max_stress_MPa=27.21  mass_g=14.44
+2026-09-20 19:24:00,022 INFO fusion_cage_octet lhs      lhs_e6697f3d       cached     0.0s  Cell Size=3.0609  Strut Thickness=0.3255  Shell Thickness=1.2672
+2026-09-20 19:24:00,022 INFO porosity=0.7273  E_app_GPa=7.824  max_stress_MPa=41.63  mass_g=7.247
+2026-09-20 19:24:00,023 INFO fusion_cage_octet lhs      lhs_73975eab       cached     0.0s  Cell Size=3.8293  Strut Thickness=0.7702  Shell Thickness=0.6791
+2026-09-20 19:24:00,023 INFO porosity=0.6713  E_app_GPa=6.924  max_stress_MPa=45.76  mass_g=8.737
+2026-09-20 19:24:00,023 INFO fusion_cage_octet lhs      lhs_95587103       cached     0.0s  Cell Size=3.29  Strut Thickness=0.6275  Shell Thickness=1.4467
+2026-09-20 19:24:00,023 INFO porosity=0.5884  E_app_GPa=10.52  max_stress_MPa=30.12  mass_g=10.94
+2026-09-20 19:24:03,535 INFO fusion_cage_octet infill1  infill1_9ad13048   cached     0.0s  Cell Size=2.2727  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:24:03,535 INFO porosity=0.6986  E_app_GPa=5.988  max_stress_MPa=52.9  mass_g=8.01
+2026-09-20 19:24:03,536 INFO fusion_cage_octet infill1  infill1_b3c2d15d   cached     0.0s  Cell Size=1.5584  Strut Thickness=0.5308  Shell Thickness=0.5024
+2026-09-20 19:24:03,536 INFO porosity=0.4075  E_app_GPa=10.75  max_stress_MPa=29.47  mass_g=15.75
+2026-09-20 19:24:03,537 INFO fusion_cage_octet infill1  infill1_f15731e7   cached     0.0s  Cell Size=2.186  Strut Thickness=0.4441  Shell Thickness=1.3182
+2026-09-20 19:24:03,537 INFO porosity=0.5806  E_app_GPa=10.22  max_stress_MPa=30.99  mass_g=11.15
+2026-09-20 19:24:06,972 INFO fusion_cage_octet infill2  infill2_1bda0372   cached     0.0s  Cell Size=2.9823  Strut Thickness=0.8667  Shell Thickness=0.5023
+2026-09-20 19:24:06,972 INFO porosity=0.4933  E_app_GPa=9.211  max_stress_MPa=34.39  mass_g=13.47
+2026-09-20 19:24:06,973 INFO fusion_cage_octet infill2  infill2_605cf4ce   cached     0.0s  Cell Size=1.6595  Strut Thickness=0.3474  Shell Thickness=1.1259
+2026-09-20 19:24:06,973 INFO porosity=0.6008  E_app_GPa=9.27  max_stress_MPa=34.17  mass_g=10.61
+2026-09-20 19:24:25,239 INFO fusion_cage_octet verify   verify_infill1_9ad13048 cached     0.0s  Cell Size=2.2727  Strut Thickness=0.45  Shell Thickness=0.5
+2026-09-20 19:24:25,240 INFO porosity=0.6986  E_app_GPa=5.988  max_stress_MPa=52.9  mass_g=8.01
+2026-09-20 19:24:25,241 INFO fusion_cage_octet verify   verify_e9b7c750    cached     0.0s  Cell Size=2.0633  Strut Thickness=0.3776  Shell Thickness=0.5002
+2026-09-20 19:24:25,241 INFO porosity=0.7284  E_app_GPa=5.51  max_stress_MPa=57.5  mass_g=7.219
+2026-09-20 19:24:25,241 INFO fusion_cage_octet verify   verify_e6aa3f82    cached     0.0s  Cell Size=2.1455  Strut Thickness=0.4583  Shell Thickness=0.6316
+2026-09-20 19:24:25,241 INFO porosity=0.6466  E_app_GPa=7.105  max_stress_MPa=44.59  mass_g=9.393

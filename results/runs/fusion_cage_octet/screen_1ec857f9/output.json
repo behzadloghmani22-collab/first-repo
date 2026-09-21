@@ -1,0 +1,53 @@
+{
+  "description": "mock nTopCL result for octet lattice",
+  "outputs": [
+    {
+      "name": "Lattice Volume",
+      "type": "scalar",
+      "value": 711.0421,
+      "units": "mm^3"
+    },
+    {
+      "name": "Envelope Volume",
+      "type": "scalar",
+      "value": 6000.0,
+      "units": "mm^3"
+    },
+    {
+      "name": "Mass",
+      "type": "scalar",
+      "value": 0.00315,
+      "units": "kg"
+    },
+    {
+      "name": "Surface Area",
+      "type": "scalar",
+      "value": 4864.728,
+      "units": "mm^2"
+    },
+    {
+      "name": "Max von Mises Stress",
+      "type": "scalar",
+      "value": 122.4723,
+      "units": "MPa"
+    },
+    {
+      "name": "Max Displacement",
+      "type": "scalar",
+      "value": 0.0089658,
+      "units": "mm"
+    },
+    {
+      "name": "Minimum Thickness",
+      "type": "scalar",
+      "value": 0.3,
+      "units": "mm"
+    },
+    {
+      "name": "Solve Time",
+      "type": "scalar",
+      "value": 44.6,
+      "units": "s"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "rsm_b8b943bc",
+  "variant": "fusion_cage_octet",
+  "phase": "rsm",
+  "assignments": {
+    "Cell Size": 2.75,
+    "Strut Thickness": 0.3,
+    "Shell Thickness": 1.0
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.034178733825683594,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_octet/rsm_b8b943bc/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_octet/rsm_b8b943bc/output.json",
+    "<root>/cage_octet/fusion_cage_octet.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:47"
+}

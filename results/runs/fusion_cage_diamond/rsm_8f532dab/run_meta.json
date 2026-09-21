@@ -1,0 +1,23 @@
+{
+  "run_id": "rsm_8f532dab",
+  "variant": "fusion_cage_diamond",
+  "phase": "rsm",
+  "assignments": {
+    "Cell Size": 2.75,
+    "Strut Thickness": 0.9,
+    "Shell Thickness": 1.0
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.033087730407714844,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_diamond/rsm_8f532dab/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_diamond/rsm_8f532dab/output.json",
+    "<root>/cage_diamond/fusion_cage_diamond.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:30"
+}

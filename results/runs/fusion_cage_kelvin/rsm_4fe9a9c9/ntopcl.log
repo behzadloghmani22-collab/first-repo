@@ -1,0 +1,4 @@
+$ /usr/local/bin/python3 <repo>/mock/mock_ntopcl.py -j <root>/DOE_results/runs/fusion_cage_kelvin/rsm_4fe9a9c9/input.json -o <root>/DOE_results/runs/fusion_cage_kelvin/rsm_4fe9a9c9/output.json <root>/cage_kelvin/fusion_cage_kelvin.ntop
+
+mock nTopCL - loading fusion_cage_kelvin.ntop
+Outputs written to <root>/DOE_results/runs/fusion_cage_kelvin/rsm_4fe9a9c9/output.json

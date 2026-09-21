@@ -1,0 +1,4 @@
+$ /usr/local/bin/python3 <repo>/mock/mock_ntopcl.py -j <root>/DOE_results/runs/fusion_cage_gyroid/rsm_973dea26/input.json -o <root>/DOE_results/runs/fusion_cage_gyroid/rsm_973dea26/output.json <root>/cage_gyroid/fusion_cage_gyroid.ntop
+
+mock nTopCL - loading fusion_cage_gyroid.ntop
+Outputs written to <root>/DOE_results/runs/fusion_cage_gyroid/rsm_973dea26/output.json

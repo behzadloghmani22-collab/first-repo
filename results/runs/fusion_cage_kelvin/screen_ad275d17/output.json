@@ -1,0 +1,53 @@
+{
+  "description": "mock nTopCL result for kelvin lattice",
+  "outputs": [
+    {
+      "name": "Lattice Volume",
+      "type": "scalar",
+      "value": 2418.5566,
+      "units": "mm^3"
+    },
+    {
+      "name": "Envelope Volume",
+      "type": "scalar",
+      "value": 6000.0,
+      "units": "mm^3"
+    },
+    {
+      "name": "Mass",
+      "type": "scalar",
+      "value": 0.010714,
+      "units": "kg"
+    },
+    {
+      "name": "Surface Area",
+      "type": "scalar",
+      "value": 12772.259,
+      "units": "mm^2"
+    },
+    {
+      "name": "Max von Mises Stress",
+      "type": "scalar",
+      "value": 48.4033,
+      "units": "MPa"
+    },
+    {
+      "name": "Max Displacement",
+      "type": "scalar",
+      "value": 0.0035308,
+      "units": "mm"
+    },
+    {
+      "name": "Minimum Thickness",
+      "type": "scalar",
+      "value": 0.6,
+      "units": "mm"
+    },
+    {
+      "name": "Solve Time",
+      "type": "scalar",
+      "value": 142.3,
+      "units": "s"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "screen_1dd3a361",
+  "variant": "fusion_cage_gyroid",
+  "phase": "screen",
+  "assignments": {
+    "Cell Size": 4.0,
+    "Strut Thickness": 0.9,
+    "Shell Thickness": 0.5
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03571033477783203,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/screen_1dd3a361/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/screen_1dd3a361/output.json",
+    "<root>/cage_gyroid/fusion_cage_gyroid.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:57"
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "verify_3884fea6",
+  "variant": "fusion_cage_diamond",
+  "phase": "verify",
+  "assignments": {
+    "Cell Size": 1.9226,
+    "Strut Thickness": 0.4497,
+    "Shell Thickness": 0.5
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03639340400695801,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_diamond/verify_3884fea6/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_diamond/verify_3884fea6/output.json",
+    "<root>/cage_diamond/fusion_cage_diamond.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:55"
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "infill2_605cf4ce",
+  "variant": "fusion_cage_octet",
+  "phase": "infill2",
+  "assignments": {
+    "Cell Size": 1.6595,
+    "Strut Thickness": 0.3474,
+    "Shell Thickness": 1.1259
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03384900093078613,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_octet/infill2_605cf4ce/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_octet/infill2_605cf4ce/output.json",
+    "<root>/cage_octet/fusion_cage_octet.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:55"
+}

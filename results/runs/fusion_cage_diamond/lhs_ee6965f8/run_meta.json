@@ -1,0 +1,23 @@
+{
+  "run_id": "lhs_ee6965f8",
+  "variant": "fusion_cage_diamond",
+  "phase": "lhs",
+  "assignments": {
+    "Cell Size": 1.8253,
+    "Strut Thickness": 0.3827,
+    "Shell Thickness": 1.2128
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.0360109806060791,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_diamond/lhs_ee6965f8/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_diamond/lhs_ee6965f8/output.json",
+    "<root>/cage_diamond/fusion_cage_diamond.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:30"
+}

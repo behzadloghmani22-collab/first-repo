@@ -1,0 +1,23 @@
+{
+  "run_id": "lhs_c97b2a76",
+  "variant": "fusion_cage_gyroid",
+  "phase": "lhs",
+  "assignments": {
+    "Cell Size": 3.5326,
+    "Strut Thickness": 0.8068,
+    "Shell Thickness": 0.8949
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03540802001953125,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/lhs_c97b2a76/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/lhs_c97b2a76/output.json",
+    "<root>/cage_gyroid/fusion_cage_gyroid.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:58"
+}

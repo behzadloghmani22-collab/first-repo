@@ -1,0 +1,23 @@
+{
+  "run_id": "screen_1caa006a",
+  "variant": "fusion_cage_kelvin",
+  "phase": "screen",
+  "assignments": {
+    "Cell Size": 4.0,
+    "Strut Thickness": 0.3,
+    "Shell Thickness": 1.5
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.0345149040222168,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/screen_1caa006a/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/screen_1caa006a/output.json",
+    "<root>/cage_kelvin/fusion_cage_kelvin.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:25"
+}

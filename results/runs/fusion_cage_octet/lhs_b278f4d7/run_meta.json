@@ -1,0 +1,23 @@
+{
+  "run_id": "lhs_b278f4d7",
+  "variant": "fusion_cage_octet",
+  "phase": "lhs",
+  "assignments": {
+    "Cell Size": 2.5164,
+    "Strut Thickness": 0.5876,
+    "Shell Thickness": 0.5016
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.0358426570892334,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_octet/lhs_b278f4d7/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_octet/lhs_b278f4d7/output.json",
+    "<root>/cage_octet/fusion_cage_octet.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:47"
+}

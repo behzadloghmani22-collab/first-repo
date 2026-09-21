@@ -1,0 +1,4 @@
+$ /usr/local/bin/python3 <repo>/mock/mock_ntopcl.py -j <root>/DOE_results/runs/fusion_cage_diamond/screen_bf965670/input.json -o <root>/DOE_results/runs/fusion_cage_diamond/screen_bf965670/output.json <root>/cage_diamond/fusion_cage_diamond.ntop
+
+mock nTopCL - loading fusion_cage_diamond.ntop
+Error: lattice thickening produced a solid body (self-intersecting struts)

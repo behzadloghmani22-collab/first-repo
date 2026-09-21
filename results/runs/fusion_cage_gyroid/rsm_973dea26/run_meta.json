@@ -1,0 +1,23 @@
+{
+  "run_id": "rsm_973dea26",
+  "variant": "fusion_cage_gyroid",
+  "phase": "rsm",
+  "assignments": {
+    "Cell Size": 1.5,
+    "Strut Thickness": 0.6,
+    "Shell Thickness": 1.0
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03784918785095215,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/rsm_973dea26/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/rsm_973dea26/output.json",
+    "<root>/cage_gyroid/fusion_cage_gyroid.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:57"
+}

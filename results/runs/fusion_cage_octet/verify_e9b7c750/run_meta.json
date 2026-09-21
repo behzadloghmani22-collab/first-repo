@@ -1,0 +1,23 @@
+{
+  "run_id": "verify_e9b7c750",
+  "variant": "fusion_cage_octet",
+  "phase": "verify",
+  "assignments": {
+    "Cell Size": 2.0633,
+    "Strut Thickness": 0.3776,
+    "Shell Thickness": 0.5002
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03764200210571289,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_octet/verify_e9b7c750/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_octet/verify_e9b7c750/output.json",
+    "<root>/cage_octet/fusion_cage_octet.ntop"
+  ],
+  "timestamp": "2026-09-20 19:22:14"
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "screen_c3241ff0",
+  "variant": "fusion_cage_gyroid",
+  "phase": "screen",
+  "assignments": {
+    "Cell Size": 1.5,
+    "Strut Thickness": 0.9,
+    "Shell Thickness": 0.5
+  },
+  "status": "failed",
+  "message": "ntopcl exit code 2; see ntopcl.log",
+  "elapsed_s": 0.037333011627197266,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/screen_c3241ff0/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/screen_c3241ff0/output.json",
+    "<root>/cage_gyroid/fusion_cage_gyroid.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:57"
+}

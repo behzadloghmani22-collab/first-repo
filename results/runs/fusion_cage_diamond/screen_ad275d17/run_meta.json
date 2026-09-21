@@ -1,0 +1,23 @@
+{
+  "run_id": "screen_ad275d17",
+  "variant": "fusion_cage_diamond",
+  "phase": "screen",
+  "assignments": {
+    "Cell Size": 2.75,
+    "Strut Thickness": 0.6,
+    "Shell Thickness": 1.0
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03495597839355469,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_diamond/screen_ad275d17/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_diamond/screen_ad275d17/output.json",
+    "<root>/cage_diamond/fusion_cage_diamond.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:30"
+}

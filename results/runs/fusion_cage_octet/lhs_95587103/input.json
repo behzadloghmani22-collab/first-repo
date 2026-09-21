@@ -1,0 +1,35 @@
+{
+  "description": "Lumbar fusion cage - octet lattice",
+  "inputs": [
+    {
+      "name": "Cell Size",
+      "type": "scalar",
+      "values": 3.29,
+      "units": "mm",
+      "description": "Lattice unit-cell size"
+    },
+    {
+      "name": "Strut Thickness",
+      "type": "scalar",
+      "values": 0.6275,
+      "units": "mm"
+    },
+    {
+      "name": "Shell Thickness",
+      "type": "scalar",
+      "values": 1.4467,
+      "units": "mm"
+    },
+    {
+      "name": "Compressive Load",
+      "type": "scalar",
+      "values": 1200.0,
+      "units": "N"
+    },
+    {
+      "name": "Export STL",
+      "type": "text",
+      "value": "cage_export.stl"
+    }
+  ]
+}

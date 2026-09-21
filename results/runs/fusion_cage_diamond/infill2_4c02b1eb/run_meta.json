@@ -1,0 +1,23 @@
+{
+  "run_id": "infill2_4c02b1eb",
+  "variant": "fusion_cage_diamond",
+  "phase": "infill2",
+  "assignments": {
+    "Cell Size": 2.1796,
+    "Strut Thickness": 0.5108,
+    "Shell Thickness": 0.8075
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03565263748168945,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_diamond/infill2_4c02b1eb/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_diamond/infill2_4c02b1eb/output.json",
+    "<root>/cage_diamond/fusion_cage_diamond.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:38"
+}

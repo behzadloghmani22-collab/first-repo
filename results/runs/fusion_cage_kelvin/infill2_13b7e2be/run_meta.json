@@ -1,0 +1,23 @@
+{
+  "run_id": "infill2_13b7e2be",
+  "variant": "fusion_cage_kelvin",
+  "phase": "infill2",
+  "assignments": {
+    "Cell Size": 1.5065,
+    "Strut Thickness": 0.431,
+    "Shell Thickness": 0.5922
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03395342826843262,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/infill2_13b7e2be/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/infill2_13b7e2be/output.json",
+    "<root>/cage_kelvin/fusion_cage_kelvin.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:31"
+}

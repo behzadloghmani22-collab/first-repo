@@ -1,0 +1,23 @@
+{
+  "run_id": "screen_bf965670",
+  "variant": "fusion_cage_kelvin",
+  "phase": "screen",
+  "assignments": {
+    "Cell Size": 1.5,
+    "Strut Thickness": 0.9,
+    "Shell Thickness": 1.5
+  },
+  "status": "failed",
+  "message": "ntopcl exit code 2; see ntopcl.log",
+  "elapsed_s": 0.0340123176574707,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/screen_bf965670/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/screen_bf965670/output.json",
+    "<root>/cage_kelvin/fusion_cage_kelvin.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:25"
+}

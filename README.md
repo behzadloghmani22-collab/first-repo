@@ -162,7 +162,7 @@ runs\<variant>\<run_id>\   input.json, output.json, ntopcl.log, run_meta.json of
 campaign.log
 ```
 
-`examples/demo_results/` in this repository holds the complete output of a dry run on
+`results/` in this repository holds the complete output of a dry run on
 four synthetic variants (octet, gyroid, diamond, kelvin) so the deliverable can be
 inspected before spending licence time. Those figures are watermarked
 "SURROGATE DEMO - not nTop data" and must not be presented as results.

@@ -1,0 +1,23 @@
+{
+  "run_id": "infill2_c634efae",
+  "variant": "fusion_cage_diamond",
+  "phase": "infill2",
+  "assignments": {
+    "Cell Size": 1.5635,
+    "Strut Thickness": 0.8717,
+    "Shell Thickness": 0.985
+  },
+  "status": "failed",
+  "message": "ntopcl exit code 2; see ntopcl.log",
+  "elapsed_s": 0.036316633224487305,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_diamond/infill2_c634efae/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_diamond/infill2_c634efae/output.json",
+    "<root>/cage_diamond/fusion_cage_diamond.ntop"
+  ],
+  "timestamp": "2026-09-20 19:20:37"
+}

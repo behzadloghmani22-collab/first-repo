@@ -1,0 +1,23 @@
+{
+  "run_id": "verify_82c18518",
+  "variant": "fusion_cage_gyroid",
+  "phase": "verify",
+  "assignments": {
+    "Cell Size": 2.1158,
+    "Strut Thickness": 0.3444,
+    "Shell Thickness": 0.6395
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03473496437072754,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/verify_82c18518/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/verify_82c18518/output.json",
+    "<root>/cage_gyroid/fusion_cage_gyroid.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:23"
+}

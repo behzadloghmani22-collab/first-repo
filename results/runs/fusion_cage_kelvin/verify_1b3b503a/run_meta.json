@@ -1,0 +1,23 @@
+{
+  "run_id": "verify_1b3b503a",
+  "variant": "fusion_cage_kelvin",
+  "phase": "verify",
+  "assignments": {
+    "Cell Size": 1.8746,
+    "Strut Thickness": 0.4004,
+    "Shell Thickness": 0.6
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.03334617614746094,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/verify_1b3b503a/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_kelvin/verify_1b3b503a/output.json",
+    "<root>/cage_kelvin/fusion_cage_kelvin.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:45"
+}

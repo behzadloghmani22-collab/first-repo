@@ -1,0 +1,35 @@
+{
+  "description": "Lumbar fusion cage - gyroid lattice",
+  "inputs": [
+    {
+      "name": "Cell Size",
+      "type": "scalar",
+      "values": 1.7351,
+      "units": "mm",
+      "description": "Lattice unit-cell size"
+    },
+    {
+      "name": "Strut Thickness",
+      "type": "scalar",
+      "values": 0.3851,
+      "units": "mm"
+    },
+    {
+      "name": "Shell Thickness",
+      "type": "scalar",
+      "values": 1.3069,
+      "units": "mm"
+    },
+    {
+      "name": "Compressive Load",
+      "type": "scalar",
+      "values": 1200.0,
+      "units": "N"
+    },
+    {
+      "name": "Export STL",
+      "type": "text",
+      "value": "cage_export.stl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "infill1_60cd5818",
+  "variant": "fusion_cage_gyroid",
+  "phase": "infill1",
+  "assignments": {
+    "Cell Size": 2.0498,
+    "Strut Thickness": 0.3274,
+    "Shell Thickness": 0.5
+  },
+  "status": "ok",
+  "message": "",
+  "elapsed_s": 0.036546945571899414,
+  "cmd": [
+    "/usr/local/bin/python3",
+    "<repo>/mock/mock_ntopcl.py",
+    "-j",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/infill1_60cd5818/input.json",
+    "-o",
+    "<root>/DOE_results/runs/fusion_cage_gyroid/infill1_60cd5818/output.json",
+    "<root>/cage_gyroid/fusion_cage_gyroid.ntop"
+  ],
+  "timestamp": "2026-09-20 19:21:01"
+}
